@@ -1,0 +1,12 @@
+scenario,attempt,time_s,data_reached_b,data_crc_valid,application_delivered,ack_reached_a,ack_crc_valid,b_event,a_event,sequence
+normal,1,0,1,1,1,1,1,message_delivered,ack_received,0
+lose_first_data,1,0,0,0,0,0,0,data_dropped,waiting_ack,0
+lose_first_data,2,4.576,1,1,1,1,1,message_delivered,ack_received,0
+lose_first_ack,1,0,1,1,1,0,0,message_delivered,waiting_ack,0
+lose_first_ack,2,4.576,1,1,0,1,1,duplicate_acknowledged,ack_received,0
+lose_all_data,1,0,0,0,0,0,0,data_dropped,waiting_ack,0
+lose_all_data,2,4.576,0,0,0,0,0,data_dropped,waiting_ack,0
+lose_all_data,3,9.152,0,0,0,0,0,data_dropped,waiting_ack,0
+lose_all_ack,1,0,1,1,1,0,0,message_delivered,waiting_ack,0
+lose_all_ack,2,4.576,1,1,0,0,0,duplicate_acknowledged,waiting_ack,0
+lose_all_ack,3,9.152,1,1,0,0,0,duplicate_acknowledged,waiting_ack,0

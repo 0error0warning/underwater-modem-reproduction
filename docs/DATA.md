@@ -10,7 +10,7 @@
 python tools/verify_public_release.py
 ```
 
-该命令检查公开文件清单、冻结 MATLAB 源码、NOF1 误码计数、连续实验的完整32秒分母及共同初相。它核验已发布快照，不替代重新进行信道仿真。
+该命令检查公开文件清单、冻结 MATLAB 源码、NOF1 误码计数、连续实验的完整32秒分母及共同初相。V4 另核对 400 个同波形配对、错误与擦除计数，并用 Python 独立校验协议帧 CRC、UTF-8 载荷和重传事件。它核验已发布快照，不替代重新进行信道仿真。
 
 ## 获取 Watermark
 
@@ -28,6 +28,8 @@ python tools/fetch_watermark.py --fetch Watermark/doc/ Watermark/matlab/ NOF1_00
 |NOF1追加确认|NOF1 004–005|
 |开发与冻结策略|NOF1/NCS1 001–010|
 |原留出评测、初相错误修正复跑|NOF1/NCS1 031–040|
+|V4 冻结主峰定时验证|NOF1/NCS1 011–020；读取前已提交预注册与源码哈希|
+|继续保留，不下载|NOF1/NCS1 021–030|
 
 PowerShell 批量获取已用到的记录：
 
@@ -41,6 +43,17 @@ python tools/fetch_watermark.py --fetch @channelNames
 ```
 
 例如第001条应位于 `vendor/Watermark/input/channels/NOF1/mat/NOF1_001.mat`。官方下载源、条目清单和下载文件 SHA256 保存在 `references/watermark_*.json`。下载脚本检查 ZIP CRC，并记录 SHA256。
+
+V4 定时实验使用以下固定记录，保持 021–030 不读：
+
+```powershell
+$timingRecords = foreach ($channel in @('NOF1','NCS1')) {
+    foreach ($record in (11..20)) { '{0}_{1:000}.mat' -f $channel,$record }
+}
+python tools/fetch_watermark.py --fetch @timingRecords
+```
+
+定时方案见 [V4 预注册](timing_holdout_protocol_v4.md)。[CRC 软件节点](packet_link_v4.md) 的自检与演示只使用合成信道，不需要下载 Watermark。
 
 ## 重跑与公开链接
 

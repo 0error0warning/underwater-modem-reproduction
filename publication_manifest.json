@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "scope": "Curated public export. Source digests describe the original local experiment artifacts; public digests describe path-sanitized distributed files. See docs/PUBLICATION.md.",
+  "scope": "Public reproduction artifacts with original-export source digests and current public SHA256. V4 adds preregistered timing evaluation and a separately tested software packet link. See docs/PUBLICATION.md.",
   "files": {
     ".gitattributes": {
       "sha256": "bdb577700ba7f79254bc323beaab8c27694f53cb8ae5b555fd87d975264bf72e"
@@ -8,13 +8,35 @@
     ".gitignore": {
       "sha256": "98cb19aa624dba4c1599fed0ed45e2bc3d97921df86b016767e2a412e0186ae2"
     },
+    "README.md": {
+      "sha256": "8dcee103f726e46ac1fcd8fdb4f7b668afc0630598d8060480f5e403b1208797",
+      "transformations": [
+        "V4 P0 extension: documentation, verification entry point, or added official source checksums; historical experiment CSV and frozen algorithms unchanged"
+      ]
+    },
+    "THIRD_PARTY.md": {
+      "sha256": "80495a45f31f584ac1a11c957691fede71f093095c66b1f974b5635d12ba7419"
+    },
+    "docs/DATA.md": {
+      "sha256": "c3a9e4b5ee38dcc102de4c0ed6d7884477c1335b253f853c32cc8486ac630d50",
+      "transformations": [
+        "V4 P0 extension: documentation, verification entry point, or added official source checksums; historical experiment CSV and frozen algorithms unchanged"
+      ]
+    },
+    "docs/PUBLICATION.md": {
+      "sha256": "7dd62dcb315c0e4d545f1714e0eb73bb2bc6cfb9920c8dfe56b706f6122542fc",
+      "transformations": [
+        "V4 P0 extension: documentation, verification entry point, or added official source checksums; historical experiment CSV and frozen algorithms unchanged"
+      ]
+    },
     "docs/adaptive_protocol_v2.md": {
       "source_sha256": "ef6ca11f50b16323dfba087becd5e4322f7dda0c445a22edd378a378c7fb697b",
       "sha256": "ef6ca11f50b16323dfba087becd5e4322f7dda0c445a22edd378a378c7fb697b",
       "transformations": []
     },
-    "docs/DATA.md": {
-      "sha256": "6b5933ffb714f12140956b7f626aae032a51977ad1e53eaee0797a365e616d81"
+    "docs/packet_link_v4.md": {
+      "origin": "V4 P0: preregistered timing evaluation or software packet/CRC/ACK implementation and validation",
+      "sha256": "e2843ba0d4b40e8a6fe2fa3b447ed0b921eef16866188ffa61ba8c28b94e0cce"
     },
     "docs/paper_audit.md": {
       "source_sha256": "4a06111ba5726034fb528af5bcdbaad90c9a4d262a5c4b7420f16b6929f0b600",
@@ -26,8 +48,9 @@
       "sha256": "03d72149c0dada34d3e5b088957380cfc3172d96af24f0832f45e26ee09a8b5d",
       "transformations": []
     },
-    "docs/PUBLICATION.md": {
-      "sha256": "1a44cb2835f186190f0096600bae3fcbd4be2d4a9ca99028ff3d9c0e7c18828d"
+    "docs/timing_holdout_protocol_v4.md": {
+      "sha256": "623ccf5d95ef5b9208b77426818c3c1b2e75706569ca3080e013bf9a7acd8118",
+      "origin": "V4 timing preregistration and development-only regression before new input download"
     },
     "docs/v2_run_guide.md": {
       "source_sha256": "7cd5ff5c64772ca271056d69649be719008d548b69ea2bb69e432ae8b8d8da44",
@@ -109,6 +132,70 @@
       "sha256": "181dec460f5fdcc4e9a2560049da18f5ef3a0bda144917295940b041e3091c7e",
       "transformations": []
     },
+    "matlab/+uac4/decode_fractional.m": {
+      "sha256": "11a46a25fb6a36fff1917dcf46359e026759866a5ed14ccff79e5ac7f4bca1a4",
+      "origin": "V4 timing preregistration and development-only regression before new input download"
+    },
+    "matlab/+uac4/receive_timing.m": {
+      "sha256": "fb226efd9d8cece27c9165878e9cbe2dc3658850900026163ac44944df621c7c",
+      "origin": "V4 timing preregistration and development-only regression before new input download"
+    },
+    "matlab/+uaclink/bits_to_bytes.m": {
+      "origin": "V4 P0: preregistered timing evaluation or software packet/CRC/ACK implementation and validation",
+      "sha256": "d9b974ab32165f7da5b2d0fba4cdb84f1710095d8272440676b9065d3a7be398"
+    },
+    "matlab/+uaclink/bytes_to_bits.m": {
+      "origin": "V4 P0: preregistered timing evaluation or software packet/CRC/ACK implementation and validation",
+      "sha256": "2fae69948772d6fc1725b84e36e14cd685a13e6d810378e1ef7d2f875b24ccb9"
+    },
+    "matlab/+uaclink/crc16.m": {
+      "origin": "V4 P0: preregistered timing evaluation or software packet/CRC/ACK implementation and validation",
+      "sha256": "b4c84e2f613566239c44e131aca180c335b6358aa2aa5ee9c80230349a01aaae"
+    },
+    "matlab/+uaclink/decode_frame.m": {
+      "origin": "V4 P0: preregistered timing evaluation or software packet/CRC/ACK implementation and validation",
+      "sha256": "72c1f5fffa7e6a78932de515de165dedd7d642f5c5974730ab4f6de099b4c2a6"
+    },
+    "matlab/+uaclink/default_config.m": {
+      "origin": "V4 P0: preregistered timing evaluation or software packet/CRC/ACK implementation and validation",
+      "sha256": "4e145dd4b0c20c20a4e6749189e1746b41ed4d74f599a378064d5e44b098d858"
+    },
+    "matlab/+uaclink/encode_frame.m": {
+      "origin": "V4 P0: preregistered timing evaluation or software packet/CRC/ACK implementation and validation",
+      "sha256": "ac7c6bac1cbe1546f1ea1ddb07bf3e3dfda11a3d43a614ec15e37abfe0fd1e51"
+    },
+    "matlab/+uaclink/new_node.m": {
+      "origin": "V4 P0: preregistered timing evaluation or software packet/CRC/ACK implementation and validation",
+      "sha256": "e2d3fb0ac54fa0b2d9895d6a64922b145390118bd6ed6eb9bca1d70d6dc456d6"
+    },
+    "matlab/+uaclink/on_timeout.m": {
+      "origin": "V4 P0: preregistered timing evaluation or software packet/CRC/ACK implementation and validation",
+      "sha256": "3b7ab27d3af0283000ab2c26ab10e88f4581bbdb26bbd0d0ea671ce3f184cb11"
+    },
+    "matlab/+uaclink/on_waveform.m": {
+      "origin": "V4 P0: preregistered timing evaluation or software packet/CRC/ACK implementation and validation",
+      "sha256": "4b1c607508d07ab120c4499b93fa9372d748938f92c93cc458da4679af4e20f7"
+    },
+    "matlab/+uaclink/parse_header.m": {
+      "origin": "V4 P0: preregistered timing evaluation or software packet/CRC/ACK implementation and validation",
+      "sha256": "936641f4905a5af39fc12f9312d9509739f7de4c47fbf39caf0ebc7a162fcae5"
+    },
+    "matlab/+uaclink/receive.m": {
+      "origin": "V4 P0: preregistered timing evaluation or software packet/CRC/ACK implementation and validation",
+      "sha256": "b270193b5aea2c3dec000d8b8d44ea7f855eb7fccb0aab6cf380a7e555b02e8a"
+    },
+    "matlab/+uaclink/send_message.m": {
+      "origin": "V4 P0: preregistered timing evaluation or software packet/CRC/ACK implementation and validation",
+      "sha256": "e3cd7e0e3b02d33a0f973ee7d6172c9d81307f777999639312088db5a5aa610d"
+    },
+    "matlab/+uaclink/synthetic_channel.m": {
+      "origin": "V4 P0: preregistered timing evaluation or software packet/CRC/ACK implementation and validation",
+      "sha256": "1a8462ecf4fe15620c6f083da51df4584d758a7c7a23b95359e03a521bd2ce7c"
+    },
+    "matlab/+uaclink/transmit.m": {
+      "origin": "V4 P0: preregistered timing evaluation or software packet/CRC/ACK implementation and validation",
+      "sha256": "6e69902dc7e2214a5d014bbaf6b8ba13216474b05f4f9f49853e05b9f978c53b"
+    },
     "matlab/run_awgn_validation.m": {
       "source_sha256": "f37b0cb6398c6eab099c90e3a6ef6401a4542762f98f019057f7f0a7cda1ed1a",
       "sha256": "f37b0cb6398c6eab099c90e3a6ef6401a4542762f98f019057f7f0a7cda1ed1a",
@@ -139,15 +226,27 @@
       "sha256": "e312aa9f6bc65d0c9f7d3869f0954b5d86c1f47de7b8cfadfef5114e59d815d7",
       "transformations": []
     },
+    "matlab/run_packet_link_v4.m": {
+      "origin": "V4 P0: preregistered timing evaluation or software packet/CRC/ACK implementation and validation",
+      "sha256": "393cb32dc3990467ef397c31bfc194c8a65b0d9018301ba24bbcf30506565570"
+    },
     "matlab/run_paper_alignment_v2.m": {
       "source_sha256": "4b4e8fa8de62889279f38487dd39410d66fbf76b9fe4c8009f5efca9dcbfb113",
       "sha256": "4b4e8fa8de62889279f38487dd39410d66fbf76b9fe4c8009f5efca9dcbfb113",
       "transformations": []
     },
+    "matlab/run_timing_holdout_v4.m": {
+      "sha256": "0aa785bd178b4f575d76143120751f350181052c78f66bb76dd90707d027a722",
+      "origin": "V4 timing preregistration and development-only regression before new input download"
+    },
     "matlab/run_watermark_validation.m": {
       "source_sha256": "c794e318a2c7b8c7d747f54053b1308706da0a2a5b24064f15144ad9af473f6e",
       "sha256": "c794e318a2c7b8c7d747f54053b1308706da0a2a5b24064f15144ad9af473f6e",
       "transformations": []
+    },
+    "matlab/validate_packet_link_v4.m": {
+      "origin": "V4 P0: preregistered timing evaluation or software packet/CRC/ACK implementation and validation",
+      "sha256": "33aac53d669b9f0a9238e4cee2691e1b5b63557b21396a911bbc1fbf73531851"
     },
     "matlab/validate_receiver_v2.m": {
       "source_sha256": "91c217b2a51d8e714ae2bd99892c68a140c24c79679baf393bf7115794f1988c",
@@ -164,9 +263,6 @@
       "sha256": "8d870ddac4bc6e42aaefd9ef3261b794dc8cb7caf862ddb20f68fd4386f81d2a",
       "transformations": []
     },
-    "README.md": {
-      "sha256": "3c49c9fd69477bcd254981d41184bb9fb8a667ac60904dd7374b8f867662a6f6"
-    },
     "references/paper_bfsk_reference.csv": {
       "source_sha256": "015333b5d3ed954dc61b8ad531deafa2bb64122b605b8e42c904d4d299718eb8",
       "sha256": "015333b5d3ed954dc61b8ad531deafa2bb64122b605b8e42c904d4d299718eb8",
@@ -179,8 +275,10 @@
     },
     "references/watermark_download_manifest.json": {
       "source_sha256": "aed63f07d36c571a388fc7a757f77fea919c8e416af50ea5c26bc23c9353b007",
-      "sha256": "aed63f07d36c571a388fc7a757f77fea919c8e416af50ea5c26bc23c9353b007",
-      "transformations": []
+      "sha256": "0ab44eb1ec0acd4cdc755c875c57f415d5afe26494820626701de1fe234183d6",
+      "transformations": [
+        "V4 P0 extension: documentation, verification entry point, or added official source checksums; historical experiment CSV and frozen algorithms unchanged"
+      ]
     },
     "requirements.txt": {
       "sha256": "f2bb0e3a4eb9cfa21925dca6d61580f54c9889370fd3a0f0dd18ead443e59457"
@@ -777,6 +875,118 @@
       "sha256": "96576cc4432ed4499610da89f42a5833c94b9f7221d506edfc305720b0684963",
       "transformations": []
     },
+    "results/v4/packet_link/demo.json": {
+      "origin": "V4 P0: preregistered timing evaluation or software packet/CRC/ACK implementation and validation",
+      "sha256": "46db28bd4d696315bcbaedf86345d92242637c74c415dd09fb133780036cdb3f"
+    },
+    "results/v4/packet_link/demo_events.csv": {
+      "origin": "V4 P0: preregistered timing evaluation or software packet/CRC/ACK implementation and validation",
+      "sha256": "efa9234edeab81cab7e5c6d0d0284b2603a94bf1ab30d27dae5c06ea7a7ebcc3"
+    },
+    "results/v4/packet_link/demo_scenarios.csv": {
+      "origin": "V4 P0: preregistered timing evaluation or software packet/CRC/ACK implementation and validation",
+      "sha256": "7968e64299b0b019cdf205268496b99324c4e0e274d47b6e6d1f92ae2c88d64a"
+    },
+    "results/v4/packet_link/development_checks/README.md": {
+      "origin": "V4 P0: preregistered timing evaluation or software packet/CRC/ACK implementation and validation",
+      "sha256": "0b767a623902427752c81e0aac6993c40ae3826930be84309e42908cb96376a5"
+    },
+    "results/v4/packet_link/development_checks/empty_shape_failure.json": {
+      "origin": "V4 P0: preregistered timing evaluation or software packet/CRC/ACK implementation and validation",
+      "sha256": "6944735a6774c7a121d5dbb9a37337a4fc511607f56aee0664d68d2c68b3bf8b"
+    },
+    "results/v4/packet_link/development_checks/empty_shape_failure_cases.csv": {
+      "origin": "V4 P0: preregistered timing evaluation or software packet/CRC/ACK implementation and validation",
+      "sha256": "216e890d0d8fc4da85fcbf76206a12197769466d8c3939f3cf2c33a0779f6b20"
+    },
+    "results/v4/packet_link/provenance.json": {
+      "origin": "V4 P0: preregistered timing evaluation or software packet/CRC/ACK implementation and validation",
+      "sha256": "bfa268eefc09dffb561dacd622185c68217735771fa543748e54dd2b148245d9"
+    },
+    "results/v4/packet_link/validation.json": {
+      "origin": "V4 P0: preregistered timing evaluation or software packet/CRC/ACK implementation and validation",
+      "sha256": "5c17f4af1446139fca1450834f7c370f7fdc7ec580ee5cd92ee4fdf0cdc3efb7"
+    },
+    "results/v4/packet_link/validation_cases.csv": {
+      "origin": "V4 P0: preregistered timing evaluation or software packet/CRC/ACK implementation and validation",
+      "sha256": "47cbfb40324009283509997159ca51a1bd6ce52cbe42b4e3375357587f104bee"
+    },
+    "results/v4/timing_holdout/development/metadata.json": {
+      "sha256": "9710593cc97eebc702c57636679cfcc8fa8e3122bc209c5bbf00c94b2aa7f8ec",
+      "origin": "V4 timing preregistration and development-only regression before new input download"
+    },
+    "results/v4/timing_holdout/development/paired_records.csv": {
+      "sha256": "f25f7ac47f383ecd952fd72ff8b3577db2bff58cf3f30c2a543497a892d7009f",
+      "origin": "V4 timing preregistration and development-only regression before new input download"
+    },
+    "results/v4/timing_holdout/development/paired_summary.csv": {
+      "sha256": "2656b420b8869b15edf100fd2f4e312d10dcf35fc2bdc5440bc2356616580895",
+      "origin": "V4 timing preregistration and development-only regression before new input download"
+    },
+    "results/v4/timing_holdout/development/per_packet.csv": {
+      "sha256": "c5031a450ebdb4233f8c6e144c937085b6e9fd2b28cca89558357bfdf65392b4",
+      "origin": "V4 timing preregistration and development-only regression before new input download"
+    },
+    "results/v4/timing_holdout/development/per_record.csv": {
+      "sha256": "f02722d4e33fd1539adcbb128737cbba993fd5f633baf996619a9dad11d79fe7",
+      "origin": "V4 timing preregistration and development-only regression before new input download"
+    },
+    "results/v4/timing_holdout/development/primary_by_record.png": {
+      "sha256": "525c7853cbe4ae1b190ae446c94361f6e7a775e2d644157cd3581d04d5d30c70",
+      "origin": "V4 timing preregistration and development-only regression before new input download"
+    },
+    "results/v4/timing_holdout/development/report.md": {
+      "sha256": "a3edee95be84e23f65d05a3d4a2669df1c2457ce77d0f0f70656f7641abd7c12",
+      "origin": "V4 timing preregistration and development-only regression before new input download"
+    },
+    "results/v4/timing_holdout/development/summary.csv": {
+      "sha256": "d90c7b600ce847d428a2b590f08af22f7627fd52de683bc02c2f50d1d2d00222",
+      "origin": "V4 timing preregistration and development-only regression before new input download"
+    },
+    "results/v4/timing_holdout/development/verification.json": {
+      "sha256": "17ef7b1927f791c8bbb694a57f172df48231bc184668cc714bd0f91278bccc72",
+      "origin": "V4 timing preregistration and development-only regression before new input download"
+    },
+    "results/v4/timing_holdout/freeze.json": {
+      "sha256": "e8524d5edbd4d943b9986b16e23c0c19de8e5f9572fc99104582c6222f8f973c",
+      "origin": "V4 timing preregistration and development-only regression before new input download"
+    },
+    "results/v4/timing_holdout/metadata.json": {
+      "origin": "V4 P0: preregistered timing evaluation or software packet/CRC/ACK implementation and validation",
+      "sha256": "e2d61792a8141acc140a49ede9cf1ad5a200228b24b73327eb5c419d8fce033e"
+    },
+    "results/v4/timing_holdout/paired_records.csv": {
+      "origin": "V4 P0: preregistered timing evaluation or software packet/CRC/ACK implementation and validation",
+      "sha256": "668484e4daac98f0154d1874221e9c408fb133b1e53606f9be20f45eea9270b0"
+    },
+    "results/v4/timing_holdout/paired_summary.csv": {
+      "origin": "V4 P0: preregistered timing evaluation or software packet/CRC/ACK implementation and validation",
+      "sha256": "284c6d2f92cefa824afa6ea1261d53751a70df4b223aeecb63feba805ee216c8"
+    },
+    "results/v4/timing_holdout/per_packet.csv": {
+      "origin": "V4 P0: preregistered timing evaluation or software packet/CRC/ACK implementation and validation",
+      "sha256": "7a402f6fff4937b808be4b7fefdba6235f2b4d8943467d659615d2e954d0202d"
+    },
+    "results/v4/timing_holdout/per_record.csv": {
+      "origin": "V4 P0: preregistered timing evaluation or software packet/CRC/ACK implementation and validation",
+      "sha256": "5a4877a6857a2bafe4c26df3c910039ee08ce370aacbf913c2c8c6d9c7fcd3d3"
+    },
+    "results/v4/timing_holdout/primary_by_record.png": {
+      "origin": "V4 P0: preregistered timing evaluation or software packet/CRC/ACK implementation and validation",
+      "sha256": "fd6ae3039230e7ac24cb60e50520621148eaac1129c90cd69e854055722a6dc0"
+    },
+    "results/v4/timing_holdout/report.md": {
+      "origin": "V4 P0: preregistered timing evaluation or software packet/CRC/ACK implementation and validation",
+      "sha256": "abe411f4358930336e8d8507d33e823f0bfd39cf111449139d4a488a46550033"
+    },
+    "results/v4/timing_holdout/summary.csv": {
+      "origin": "V4 P0: preregistered timing evaluation or software packet/CRC/ACK implementation and validation",
+      "sha256": "bed8f5554720e0f8cbb41417c5fda2d1b34f03931c67d0fea9088061a2d3a5cb"
+    },
+    "results/v4/timing_holdout/verification.json": {
+      "origin": "V4 P0: preregistered timing evaluation or software packet/CRC/ACK implementation and validation",
+      "sha256": "a72ee5f6c1d435a01e95680cbdc2bbd08854813cba0efcba085479f1ec1941c9"
+    },
     "results/verification.json": {
       "source_sha256": "9394039f71c9bfaa765a7a43d361e2507831f349f09c5271cd678dd68c56e91b",
       "sha256": "9394039f71c9bfaa765a7a43d361e2507831f349f09c5271cd678dd68c56e91b",
@@ -844,9 +1054,6 @@
       "sha256": "955ab617c100c8574e784f8876252647ccdefe3f42cf765e76fd50efa432b991",
       "transformations": []
     },
-    "THIRD_PARTY.md": {
-      "sha256": "80495a45f31f584ac1a11c957691fede71f093095c66b1f974b5635d12ba7419"
-    },
     "tools/analyze_adaptive_v2.py": {
       "source_sha256": "ccb319db62045b390e430ae45f24233e97e6ee0c437fa858dfa84243eca0ce45",
       "sha256": "ccb319db62045b390e430ae45f24233e97e6ee0c437fa858dfa84243eca0ce45",
@@ -895,68 +1102,19 @@
       "sha256": "006172e9107d7b4229d96f5f4fa8e90685ea30844ef791213ad2069412cfc406",
       "transformations": []
     },
-    "tools/verify_public_release.py": {
-      "sha256": "91e411141d44d047e240c837e35af15863bccb5a79e27d9427118976a17394ac"
-    },
-    "docs/timing_holdout_protocol_v4.md": {
-      "sha256": "623ccf5d95ef5b9208b77426818c3c1b2e75706569ca3080e013bf9a7acd8118",
-      "origin": "V4 timing preregistration and development-only regression before new input download"
-    },
-    "matlab/+uac4/decode_fractional.m": {
-      "sha256": "11a46a25fb6a36fff1917dcf46359e026759866a5ed14ccff79e5ac7f4bca1a4",
-      "origin": "V4 timing preregistration and development-only regression before new input download"
-    },
-    "matlab/+uac4/receive_timing.m": {
-      "sha256": "fb226efd9d8cece27c9165878e9cbe2dc3658850900026163ac44944df621c7c",
-      "origin": "V4 timing preregistration and development-only regression before new input download"
-    },
-    "matlab/run_timing_holdout_v4.m": {
-      "sha256": "0aa785bd178b4f575d76143120751f350181052c78f66bb76dd90707d027a722",
-      "origin": "V4 timing preregistration and development-only regression before new input download"
-    },
-    "results/v4/timing_holdout/development/metadata.json": {
-      "sha256": "9710593cc97eebc702c57636679cfcc8fa8e3122bc209c5bbf00c94b2aa7f8ec",
-      "origin": "V4 timing preregistration and development-only regression before new input download"
-    },
-    "results/v4/timing_holdout/development/paired_records.csv": {
-      "sha256": "f25f7ac47f383ecd952fd72ff8b3577db2bff58cf3f30c2a543497a892d7009f",
-      "origin": "V4 timing preregistration and development-only regression before new input download"
-    },
-    "results/v4/timing_holdout/development/paired_summary.csv": {
-      "sha256": "2656b420b8869b15edf100fd2f4e312d10dcf35fc2bdc5440bc2356616580895",
-      "origin": "V4 timing preregistration and development-only regression before new input download"
-    },
-    "results/v4/timing_holdout/development/per_packet.csv": {
-      "sha256": "c5031a450ebdb4233f8c6e144c937085b6e9fd2b28cca89558357bfdf65392b4",
-      "origin": "V4 timing preregistration and development-only regression before new input download"
-    },
-    "results/v4/timing_holdout/development/per_record.csv": {
-      "sha256": "f02722d4e33fd1539adcbb128737cbba993fd5f633baf996619a9dad11d79fe7",
-      "origin": "V4 timing preregistration and development-only regression before new input download"
-    },
-    "results/v4/timing_holdout/development/primary_by_record.png": {
-      "sha256": "525c7853cbe4ae1b190ae446c94361f6e7a775e2d644157cd3581d04d5d30c70",
-      "origin": "V4 timing preregistration and development-only regression before new input download"
-    },
-    "results/v4/timing_holdout/development/report.md": {
-      "sha256": "a3edee95be84e23f65d05a3d4a2669df1c2457ce77d0f0f70656f7641abd7c12",
-      "origin": "V4 timing preregistration and development-only regression before new input download"
-    },
-    "results/v4/timing_holdout/development/summary.csv": {
-      "sha256": "d90c7b600ce847d428a2b590f08af22f7627fd52de683bc02c2f50d1d2d00222",
-      "origin": "V4 timing preregistration and development-only regression before new input download"
-    },
-    "results/v4/timing_holdout/development/verification.json": {
-      "sha256": "17ef7b1927f791c8bbb694a57f172df48231bc184668cc714bd0f91278bccc72",
-      "origin": "V4 timing preregistration and development-only regression before new input download"
-    },
-    "results/v4/timing_holdout/freeze.json": {
-      "sha256": "e8524d5edbd4d943b9986b16e23c0c19de8e5f9572fc99104582c6222f8f973c",
-      "origin": "V4 timing preregistration and development-only regression before new input download"
-    },
     "tools/report_timing_holdout_v4.py": {
       "sha256": "5b9f6ce50080936b2c1ec0f192b39a3c33363ea1c52d1b452ee42912ba75cc9f",
       "origin": "V4 timing preregistration and development-only regression before new input download"
+    },
+    "tools/verify_p0_v4.py": {
+      "origin": "V4 P0: preregistered timing evaluation or software packet/CRC/ACK implementation and validation",
+      "sha256": "ba66549df1db35b1a08a87ef07bd186217c3b16a22b2a7bceb3b339952ca6290"
+    },
+    "tools/verify_public_release.py": {
+      "sha256": "d2ce16c5516cb2b36d616b683f9fc3bac8e391b75a1d0f2fc6c1ec29d8280aa8",
+      "transformations": [
+        "V4 P0 extension: documentation, verification entry point, or added official source checksums; historical experiment CSV and frozen algorithms unchanged"
+      ]
     }
   }
 }

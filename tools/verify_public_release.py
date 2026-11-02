@@ -5,6 +5,7 @@ import json
 import math
 from collections import defaultdict
 from pathlib import Path
+from verify_p0_v4 import check_packet_link, check_timing
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -98,6 +99,8 @@ def main():
     check_diagnostic("results/v3/nof1_diagnostic/decoder_results.csv", {1, 2, 3}, (373, 24), 960)
     check_diagnostic("results/v3/nof1_diagnostic/confirmation/decoder_results.csv", {4, 5}, (163, 59), 640)
     check_continuous()
+    check_timing()
+    check_packet_link()
     print(f"PASS: {len(files)} manifest files; frozen MATLAB hashes; diagnostic counts; 595 packets / 40 horizons; 11.6 / 9.8 bit/s; 255 identical phase pairs.")
 
 

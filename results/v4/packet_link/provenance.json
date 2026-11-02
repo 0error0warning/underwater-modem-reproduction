@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-11-02T11:59:48.453590+00:00",
+  "scope": "Completed software packet protocol validation and synthetic delayed/Doppler/AWGN waveform DATA/ACK demo. No Watermark held-out data or hardware validation.",
+  "source_files": [
+    {
+      "path": "matlab/+uac/default_config.m",
+      "sha256": "9ed7a9ae4e9fd37e3ce20df3ba9deb95a6888b8123b46671241272fa34a688bc"
+    },
+    {
+      "path": "matlab/+uac/modulate.m",
+      "sha256": "adc8effbce58eca6d6bd7b64f18470ae69ae2b741cd16765a96875e894217a6a"
+    },
+    {
+      "path": "matlab/+uac/waveform_parameters.m",
+      "sha256": "c77f62bb2f837f37c832aa1aa81d72b7e8d865802802cdcfe35b8753c0c32dda"
+    },
+    {
+      "path": "matlab/+uac2/default_config.m",
+      "sha256": "55a081618512a28858cd43fe73da55466d118e88d533f6a925413d4451a4581a"
+    },
+    {
+      "path": "matlab/+uac2/hfm_analytic.m",
+      "sha256": "c3f870ba626ac78faedb8580a64f14b3802a0c70ca0712c1b3f8abcc8ebf9755"
+    },
+    {
+      "path": "matlab/+uac2/make_packet.m",
+      "sha256": "ede03e0666e388d04155750674305e3e8ef49e125c643fd7155914363e0e7bc5"
+    },
+    {
+      "path": "matlab/+uac2/packet_layout.m",
+      "sha256": "b222bed564cf062a81b5b65e16aaf506ecb6ad5c5560ed80740c2de1ab0a70be"
+    },
+    {
+      "path": "matlab/+uac2/receive_packet.m",
+      "sha256": "a4ca5b55fc48ef879c846d0f94b89e6cf54cbd0c4b23ba60b57a74fd6d613d5f"
+    },
+    {
+      "path": "matlab/+uac2/sinc_sample.m",
+      "sha256": "181dec460f5fdcc4e9a2560049da18f5ef3a0bda144917295940b041e3091c7e"
+    },
+    {
+      "path": "matlab/+uac4/decode_fractional.m",
+      "sha256": "11a46a25fb6a36fff1917dcf46359e026759866a5ed14ccff79e5ac7f4bca1a4"
+    },
+    {
+      "path": "matlab/+uac4/receive_timing.m",
+      "sha256": "fb226efd9d8cece27c9165878e9cbe2dc3658850900026163ac44944df621c7c"
+    },
+    {
+      "path": "matlab/+uaclink/bits_to_bytes.m",
+      "sha256": "d9b974ab32165f7da5b2d0fba4cdb84f1710095d8272440676b9065d3a7be398"
+    },
+    {
+      "path": "matlab/+uaclink/bytes_to_bits.m",
+      "sha256": "2fae69948772d6fc1725b84e36e14cd685a13e6d810378e1ef7d2f875b24ccb9"
+    },
+    {
+      "path": "matlab/+uaclink/crc16.m",
+      "sha256": "b4c84e2f613566239c44e131aca180c335b6358aa2aa5ee9c80230349a01aaae"
+    },
+    {
+      "path": "matlab/+uaclink/decode_frame.m",
+      "sha256": "72c1f5fffa7e6a78932de515de165dedd7d642f5c5974730ab4f6de099b4c2a6"
+    },
+    {
+      "path": "matlab/+uaclink/default_config.m",
+      "sha256": "4e145dd4b0c20c20a4e6749189e1746b41ed4d74f599a378064d5e44b098d858"
+    },
+    {
+      "path": "matlab/+uaclink/encode_frame.m",
+      "sha256": "ac7c6bac1cbe1546f1ea1ddb07bf3e3dfda11a3d43a614ec15e37abfe0fd1e51"
+    },
+    {
+      "path": "matlab/+uaclink/new_node.m",
+      "sha256": "e2d3fb0ac54fa0b2d9895d6a64922b145390118bd6ed6eb9bca1d70d6dc456d6"
+    },
+    {
+      "path": "matlab/+uaclink/on_timeout.m",
+      "sha256": "3b7ab27d3af0283000ab2c26ab10e88f4581bbdb26bbd0d0ea671ce3f184cb11"
+    },
+    {
+      "path": "matlab/+uaclink/on_waveform.m",
+      "sha256": "4b1c607508d07ab120c4499b93fa9372d748938f92c93cc458da4679af4e20f7"
+    },
+    {
+      "path": "matlab/+uaclink/parse_header.m",
+      "sha256": "936641f4905a5af39fc12f9312d9509739f7de4c47fbf39caf0ebc7a162fcae5"
+    },
+    {
+      "path": "matlab/+uaclink/receive.m",
+      "sha256": "b270193b5aea2c3dec000d8b8d44ea7f855eb7fccb0aab6cf380a7e555b02e8a"
+    },
+    {
+      "path": "matlab/+uaclink/send_message.m",
+      "sha256": "e3cd7e0e3b02d33a0f973ee7d6172c9d81307f777999639312088db5a5aa610d"
+    },
+    {
+      "path": "matlab/+uaclink/synthetic_channel.m",
+      "sha256": "1a8462ecf4fe15620c6f083da51df4584d758a7c7a23b95359e03a521bd2ce7c"
+    },
+    {
+      "path": "matlab/+uaclink/transmit.m",
+      "sha256": "6e69902dc7e2214a5d014bbaf6b8ba13216474b05f4f9f49853e05b9f978c53b"
+    },
+    {
+      "path": "matlab/run_packet_link_v4.m",
+      "sha256": "393cb32dc3990467ef397c31bfc194c8a65b0d9018301ba24bbcf30506565570"
+    },
+    {
+      "path": "matlab/validate_packet_link_v4.m",
+      "sha256": "33aac53d669b9f0a9238e4cee2691e1b5b63557b21396a911bbc1fbf73531851"
+    }
+  ],
+  "output_files": [
+    {
+      "path": "results/v4/packet_link/demo.json",
+      "sha256": "46db28bd4d696315bcbaedf86345d92242637c74c415dd09fb133780036cdb3f"
+    },
+    {
+      "path": "results/v4/packet_link/demo_events.csv",
+      "sha256": "efa9234edeab81cab7e5c6d0d0284b2603a94bf1ab30d27dae5c06ea7a7ebcc3"
+    },
+    {
+      "path": "results/v4/packet_link/demo_scenarios.csv",
+      "sha256": "7968e64299b0b019cdf205268496b99324c4e0e274d47b6e6d1f92ae2c88d64a"
+    },
+    {
+      "path": "results/v4/packet_link/validation.json",
+      "sha256": "5c17f4af1446139fca1450834f7c370f7fdc7ec580ee5cd92ee4fdf0cdc3efb7"
+    },
+    {
+      "path": "results/v4/packet_link/validation_cases.csv",
+      "sha256": "47cbfb40324009283509997159ca51a1bd6ce52cbe42b4e3375357587f104bee"
+    }
+  ],
+  "validation_cases": 35,
+  "validation_passed": 35,
+  "single_bit_corruption_trials": 256,
+  "demo_scenarios": 5,
+  "demo_events": 11,
+  "development_failure": "development_checks/empty_shape_failure.json preserves a test-only empty-array shape mismatch. Final validation normalizes byte-vector shapes; receiver and CRC algorithm were not changed for it."
+}

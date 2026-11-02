@@ -1,0 +1,6 @@
+scenario,attempts,sender_state,sender_confirmed,receiver_deliveries,received_text,message_equal,passed
+normal,1,idle,1,1,你好，水声 Modem!,1,1
+lose_first_data,2,idle,1,1,你好，水声 Modem!,1,1
+lose_first_ack,2,idle,1,1,你好，水声 Modem!,1,1
+lose_all_data,3,exhausted,0,0,,0,1
+lose_all_ack,3,exhausted,0,1,你好，水声 Modem!,1,1
