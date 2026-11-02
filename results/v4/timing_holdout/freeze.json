@@ -1,0 +1,148 @@
+{
+  "status": "FROZEN_BEFORE_NEW_INPUT_DOWNLOAD",
+  "frozen_utc": "2026-11-02T11:57:10Z",
+  "source_git_commit": "d83218a1adb6fc25caaf1d0f8d4df3c171a3d845",
+  "primary_condition": "NOF1;4ms active;0ms guard;20dB sample_snr_packet",
+  "evaluation_records": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "reserved_unread_records": [
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "input_availability_before_download": {
+    "vendor/Watermark/input/channels/NOF1/mat/NOF1_011.mat": false,
+    "vendor/Watermark/input/channels/NOF1/mat/NOF1_012.mat": false,
+    "vendor/Watermark/input/channels/NOF1/mat/NOF1_013.mat": false,
+    "vendor/Watermark/input/channels/NOF1/mat/NOF1_014.mat": false,
+    "vendor/Watermark/input/channels/NOF1/mat/NOF1_015.mat": false,
+    "vendor/Watermark/input/channels/NOF1/mat/NOF1_016.mat": false,
+    "vendor/Watermark/input/channels/NOF1/mat/NOF1_017.mat": false,
+    "vendor/Watermark/input/channels/NOF1/mat/NOF1_018.mat": false,
+    "vendor/Watermark/input/channels/NOF1/mat/NOF1_019.mat": false,
+    "vendor/Watermark/input/channels/NOF1/mat/NOF1_020.mat": false,
+    "vendor/Watermark/input/channels/NCS1/mat/NCS1_011.mat": false,
+    "vendor/Watermark/input/channels/NCS1/mat/NCS1_012.mat": false,
+    "vendor/Watermark/input/channels/NCS1/mat/NCS1_013.mat": false,
+    "vendor/Watermark/input/channels/NCS1/mat/NCS1_014.mat": false,
+    "vendor/Watermark/input/channels/NCS1/mat/NCS1_015.mat": false,
+    "vendor/Watermark/input/channels/NCS1/mat/NCS1_016.mat": false,
+    "vendor/Watermark/input/channels/NCS1/mat/NCS1_017.mat": false,
+    "vendor/Watermark/input/channels/NCS1/mat/NCS1_018.mat": false,
+    "vendor/Watermark/input/channels/NCS1/mat/NCS1_019.mat": false,
+    "vendor/Watermark/input/channels/NCS1/mat/NCS1_020.mat": false
+  },
+  "input_absence_scope": "Files were absent from the working data tree before this workflow downloaded them; prior protocol reserved011-030. This is workflow provenance, not proof of independent measurement environments.",
+  "development_evidence": {
+    "metadata_sha256": "9710593cc97eebc702c57636679cfcc8fa8e3122bc209c5bbf00c94b2aa7f8ec",
+    "per_packet_sha256": "c5031a450ebdb4233f8c6e144c937085b6e9fd2b28cca89558357bfdf65392b4",
+    "exact_v3_method_observations": 40
+  },
+  "files": [
+    {
+      "path": "docs/timing_holdout_protocol_v4.md",
+      "sha256": "623ccf5d95ef5b9208b77426818c3c1b2e75706569ca3080e013bf9a7acd8118"
+    },
+    {
+      "path": "matlab/+uac/default_config.m",
+      "sha256": "9ed7a9ae4e9fd37e3ce20df3ba9deb95a6888b8123b46671241272fa34a688bc"
+    },
+    {
+      "path": "matlab/+uac/demodulate.m",
+      "sha256": "c85c2c2b218cecc0c6990f6e043a10c982c2d76245c4d3fe66e67b5ca3410a45"
+    },
+    {
+      "path": "matlab/+uac/modulate.m",
+      "sha256": "adc8effbce58eca6d6bd7b64f18470ae69ae2b741cd16765a96875e894217a6a"
+    },
+    {
+      "path": "matlab/+uac/replayfilter_fast.m",
+      "sha256": "e0eccd4a8662c600f86c95496085924c56d36bf2091ea17c1c08bdb35f5bd535"
+    },
+    {
+      "path": "matlab/+uac/waveform_parameters.m",
+      "sha256": "c77f62bb2f837f37c832aa1aa81d72b7e8d865802802cdcfe35b8753c0c32dda"
+    },
+    {
+      "path": "matlab/+uac/wilson_interval.m",
+      "sha256": "f7a24abe25bc5d44464a8dadfab98b6395584605dd8b357add57cca3692b9655"
+    },
+    {
+      "path": "matlab/+uac2/default_config.m",
+      "sha256": "55a081618512a28858cd43fe73da55466d118e88d533f6a925413d4451a4581a"
+    },
+    {
+      "path": "matlab/+uac2/demodulate_scaled.m",
+      "sha256": "3770cdc135ec3e4d93a084200826ddf00ab948eb3ca1f2b8827775d1c8372532"
+    },
+    {
+      "path": "matlab/+uac2/hfm_analytic.m",
+      "sha256": "c3f870ba626ac78faedb8580a64f14b3802a0c70ca0712c1b3f8abcc8ebf9755"
+    },
+    {
+      "path": "matlab/+uac2/make_packet.m",
+      "sha256": "ede03e0666e388d04155750674305e3e8ef49e125c643fd7155914363e0e7bc5"
+    },
+    {
+      "path": "matlab/+uac2/packet_layout.m",
+      "sha256": "b222bed564cf062a81b5b65e16aaf506ecb6ad5c5560ed80740c2de1ab0a70be"
+    },
+    {
+      "path": "matlab/+uac2/receive_packet.m",
+      "sha256": "a4ca5b55fc48ef879c846d0f94b89e6cf54cbd0c4b23ba60b57a74fd6d613d5f"
+    },
+    {
+      "path": "matlab/+uac2/replay_at.m",
+      "sha256": "1b064b7e077ccfb009b9c2dc994436aee4052b2508abff412a95449829d1afd0"
+    },
+    {
+      "path": "matlab/+uac2/restore_bulk.m",
+      "sha256": "8f828c1b7d440c8a4333fcb801d5e95069ac9aa5baa4e9fa0fd50896dcb8ab40"
+    },
+    {
+      "path": "matlab/+uac2/sinc_sample.m",
+      "sha256": "181dec460f5fdcc4e9a2560049da18f5ef3a0bda144917295940b041e3091c7e"
+    },
+    {
+      "path": "matlab/+uac4/decode_fractional.m",
+      "sha256": "11a46a25fb6a36fff1917dcf46359e026759866a5ed14ccff79e5ac7f4bca1a4"
+    },
+    {
+      "path": "matlab/+uac4/receive_timing.m",
+      "sha256": "fb226efd9d8cece27c9165878e9cbe2dc3658850900026163ac44944df621c7c"
+    },
+    {
+      "path": "matlab/run_timing_holdout_v4.m",
+      "sha256": "0aa785bd178b4f575d76143120751f350181052c78f66bb76dd90707d027a722"
+    },
+    {
+      "path": "results/v3/nof1_diagnostic/decoder_results.csv",
+      "sha256": "7a984f1b3451365250e91f51c56c024b8a65ef477b048bf5c07f32b16977226d"
+    },
+    {
+      "path": "tools/fetch_watermark.py",
+      "sha256": "14d65d751520e043f2ff9bb615de559b9148d825694ce7242defe7f8e2751c19"
+    },
+    {
+      "path": "tools/report_timing_holdout_v4.py",
+      "sha256": "5b9f6ce50080936b2c1ec0f192b39a3c33363ea1c52d1b452ee42912ba75cc9f"
+    }
+  ]
+}

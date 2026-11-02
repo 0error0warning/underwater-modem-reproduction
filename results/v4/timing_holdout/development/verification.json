@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "stage": "development",
+  "method_rows": 80,
+  "waveform_pairs": 40,
+  "frozen_files_checked": 0,
+  "same_waveform_pairs_verified": true,
+  "all_erasures_retained": true,
+  "record_grid_verified": true,
+  "conditional_ber_and_total_loss_separate": true,
+  "source_files": {
+    "per_packet.csv": "c5031a450ebdb4233f8c6e144c937085b6e9fd2b28cca89558357bfdf65392b4",
+    "metadata.json": "9710593cc97eebc702c57636679cfcc8fa8e3122bc209c5bbf00c94b2aa7f8ec"
+  },
+  "scope": "Count, grid, pairing and frozen-code integrity; no claim of independent environments"
+}

@@ -897,6 +897,66 @@
     },
     "tools/verify_public_release.py": {
       "sha256": "91e411141d44d047e240c837e35af15863bccb5a79e27d9427118976a17394ac"
+    },
+    "docs/timing_holdout_protocol_v4.md": {
+      "sha256": "623ccf5d95ef5b9208b77426818c3c1b2e75706569ca3080e013bf9a7acd8118",
+      "origin": "V4 timing preregistration and development-only regression before new input download"
+    },
+    "matlab/+uac4/decode_fractional.m": {
+      "sha256": "11a46a25fb6a36fff1917dcf46359e026759866a5ed14ccff79e5ac7f4bca1a4",
+      "origin": "V4 timing preregistration and development-only regression before new input download"
+    },
+    "matlab/+uac4/receive_timing.m": {
+      "sha256": "fb226efd9d8cece27c9165878e9cbe2dc3658850900026163ac44944df621c7c",
+      "origin": "V4 timing preregistration and development-only regression before new input download"
+    },
+    "matlab/run_timing_holdout_v4.m": {
+      "sha256": "0aa785bd178b4f575d76143120751f350181052c78f66bb76dd90707d027a722",
+      "origin": "V4 timing preregistration and development-only regression before new input download"
+    },
+    "results/v4/timing_holdout/development/metadata.json": {
+      "sha256": "9710593cc97eebc702c57636679cfcc8fa8e3122bc209c5bbf00c94b2aa7f8ec",
+      "origin": "V4 timing preregistration and development-only regression before new input download"
+    },
+    "results/v4/timing_holdout/development/paired_records.csv": {
+      "sha256": "f25f7ac47f383ecd952fd72ff8b3577db2bff58cf3f30c2a543497a892d7009f",
+      "origin": "V4 timing preregistration and development-only regression before new input download"
+    },
+    "results/v4/timing_holdout/development/paired_summary.csv": {
+      "sha256": "2656b420b8869b15edf100fd2f4e312d10dcf35fc2bdc5440bc2356616580895",
+      "origin": "V4 timing preregistration and development-only regression before new input download"
+    },
+    "results/v4/timing_holdout/development/per_packet.csv": {
+      "sha256": "c5031a450ebdb4233f8c6e144c937085b6e9fd2b28cca89558357bfdf65392b4",
+      "origin": "V4 timing preregistration and development-only regression before new input download"
+    },
+    "results/v4/timing_holdout/development/per_record.csv": {
+      "sha256": "f02722d4e33fd1539adcbb128737cbba993fd5f633baf996619a9dad11d79fe7",
+      "origin": "V4 timing preregistration and development-only regression before new input download"
+    },
+    "results/v4/timing_holdout/development/primary_by_record.png": {
+      "sha256": "525c7853cbe4ae1b190ae446c94361f6e7a775e2d644157cd3581d04d5d30c70",
+      "origin": "V4 timing preregistration and development-only regression before new input download"
+    },
+    "results/v4/timing_holdout/development/report.md": {
+      "sha256": "a3edee95be84e23f65d05a3d4a2669df1c2457ce77d0f0f70656f7641abd7c12",
+      "origin": "V4 timing preregistration and development-only regression before new input download"
+    },
+    "results/v4/timing_holdout/development/summary.csv": {
+      "sha256": "d90c7b600ce847d428a2b590f08af22f7627fd52de683bc02c2f50d1d2d00222",
+      "origin": "V4 timing preregistration and development-only regression before new input download"
+    },
+    "results/v4/timing_holdout/development/verification.json": {
+      "sha256": "17ef7b1927f791c8bbb694a57f172df48231bc184668cc714bd0f91278bccc72",
+      "origin": "V4 timing preregistration and development-only regression before new input download"
+    },
+    "results/v4/timing_holdout/freeze.json": {
+      "sha256": "e8524d5edbd4d943b9986b16e23c0c19de8e5f9572fc99104582c6222f8f973c",
+      "origin": "V4 timing preregistration and development-only regression before new input download"
+    },
+    "tools/report_timing_holdout_v4.py": {
+      "sha256": "5b9f6ce50080936b2c1ec0f192b39a3c33363ea1c52d1b452ee42912ba75cc9f",
+      "origin": "V4 timing preregistration and development-only regression before new input download"
     }
   }
 }
