@@ -1,0 +1,11 @@
+vendor/
+__pycache__/
+*.pyc
+*.log
+.venv/
+.env
+.env.*
+references/*.pdf
+results/**/smoke/
+results/**/nof1_diagnostic_invalid_phase_shadow/
+

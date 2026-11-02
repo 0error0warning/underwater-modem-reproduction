@@ -1,0 +1,208 @@
+{
+  "status": "COMPLETE",
+  "record_ids": [
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40
+  ],
+  "horizon_s": 32,
+  "policy_file": "results/v2/adaptive/frozen_policy.json",
+  "policy_frozen_content": {
+    "status": "FROZEN_BEFORE_FINAL_TEST",
+    "created_utc": "2026-11-02T08:16:02.279938+00:00",
+    "protocol_sha256": "ef6ca11f50b16323dfba087becd5e4322f7dda0c445a22edd378a378c7fb697b",
+    "development_sha256": "030dd5d727f06165ee25e0d1cf366fb52fc34f59689b3f50cfa142f4903466c2",
+    "development_source": "results/v2/records_development.csv",
+    "primary_snr_db": 20,
+    "noise_mode": "fixed_noise_active_reference",
+    "receiver_mode": "sync_compensated",
+    "guards_ms": [
+      0,
+      4,
+      8,
+      16,
+      32
+    ],
+    "feature_names": [
+      "delay_spread_ms",
+      "sync_score",
+      "abs_velocity_hat"
+    ],
+    "fallback_guard_ms": 8,
+    "base_control_s": 0.16,
+    "objective": "success_bits / sum(occupied_s + base_control_s)",
+    "train_records": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "validation_records": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "final_records": [
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40
+    ],
+    "extra_trajectory_keys": [],
+    "best_fixed": {
+      "kind": "fixed",
+      "guard_ms": 0
+    },
+    "adaptive_stump": {
+      "kind": "stump",
+      "feature": "sync_score",
+      "threshold": 0.49981536697038725,
+      "left_guard_ms": 0,
+      "right_guard_ms": 8,
+      "fallback_guard_ms": 8
+    },
+    "validation_selected": {
+      "kind": "fixed",
+      "guard_ms": 0
+    },
+    "validation_selected_name": "fixed_0",
+    "candidate_scores": [
+      {
+        "name": "fixed_0",
+        "model": {
+          "kind": "fixed",
+          "guard_ms": 0
+        },
+        "train_efficiency_bps": 16.695652173913025,
+        "validation_efficiency_bps": 27.82608695652171,
+        "validation_slot_rate_bps": 8.000000000000004
+      },
+      {
+        "name": "fixed_4",
+        "model": {
+          "kind": "fixed",
+          "guard_ms": 4
+        },
+        "train_efficiency_bps": 15.238095238095221,
+        "validation_efficiency_bps": 21.76870748299317,
+        "validation_slot_rate_bps": 8.000000000000004
+      },
+      {
+        "name": "fixed_8",
+        "model": {
+          "kind": "fixed",
+          "guard_ms": 8
+        },
+        "train_efficiency_bps": 18.77094972067038,
+        "validation_efficiency_bps": 18.77094972067038,
+        "validation_slot_rate_bps": 8.400000000000002
+      },
+      {
+        "name": "fixed_16",
+        "model": {
+          "kind": "fixed",
+          "guard_ms": 16
+        },
+        "train_efficiency_bps": 12.510288065843612,
+        "validation_efficiency_bps": 13.82716049382715,
+        "validation_slot_rate_bps": 8.400000000000002
+      },
+      {
+        "name": "fixed_32",
+        "model": {
+          "kind": "fixed",
+          "guard_ms": 32
+        },
+        "train_efficiency_bps": 10.781671159029647,
+        "validation_efficiency_bps": 10.350404312668461,
+        "validation_slot_rate_bps": 9.600000000000003
+      },
+      {
+        "name": "stump_delay_spread_ms",
+        "model": {
+          "kind": "stump",
+          "feature": "delay_spread_ms",
+          "threshold": 5.716666666666681,
+          "left_guard_ms": 8,
+          "right_guard_ms": 0,
+          "fallback_guard_ms": 8
+        },
+        "train_efficiency_bps": 20.532877047176715,
+        "validation_efficiency_bps": 20.21660649819493,
+        "validation_slot_rate_bps": 8.400000000000002
+      },
+      {
+        "name": "stump_sync_score",
+        "model": {
+          "kind": "stump",
+          "feature": "sync_score",
+          "threshold": 0.49981536697038725,
+          "left_guard_ms": 0,
+          "right_guard_ms": 8,
+          "fallback_guard_ms": 8
+        },
+        "train_efficiency_bps": 21.196063588190754,
+        "validation_efficiency_bps": 20.532877047176715,
+        "validation_slot_rate_bps": 8.400000000000002
+      },
+      {
+        "name": "stump_abs_velocity_hat",
+        "model": {
+          "kind": "stump",
+          "feature": "abs_velocity_hat",
+          "threshold": 0.19365134829074498,
+          "left_guard_ms": 8,
+          "right_guard_ms": 0,
+          "fallback_guard_ms": 8
+        },
+        "train_efficiency_bps": 20.694752402069465,
+        "validation_efficiency_bps": 20.21660649819493,
+        "validation_slot_rate_bps": 8.400000000000002
+      }
+    ],
+    "search_counts": [
+      {
+        "feature": "delay_spread_ms",
+        "threshold_count": 9,
+        "eligible_rules": 120
+      },
+      {
+        "feature": "sync_score",
+        "threshold_count": 9,
+        "eligible_rules": 120
+      },
+      {
+        "feature": "abs_velocity_hat",
+        "threshold_count": 9,
+        "eligible_rules": 120
+      }
+    ],
+    "causality": "Previous selected action preamble only; reset at each record/condition; no extra probe"
+  },
+  "channel": "Verified absolute-time TVIR replay; true bulk V0 restored; no channel truth enters receiver or policy",
+  "schedule": "Each next transmitted frame starts after selected frame duration + 128 ms common tail + explicit feedback time; channel time advances on that trajectory",
+  "control_s": 0.16,
+  "snr_db": 20,
+  "seed": 2026110203.0,
+  "time_denominator": "Full 32 s horizon including startup, ACK/feedback, grid rounding and unused end time",
+  "feedback": "Ideal successful control/ACK within stated budget, one-packet delay; missed data acquisition falls back. Return-link acoustics and propagation are not simulated.",
+  "phase": "Unknown random per-packet phase; common bit sequences and continuous-time noise across policies",
+  "elapsed_s": 86.0764367,
+  "matlab_version": "9.9.0.1467703 (R2020b)"
+}

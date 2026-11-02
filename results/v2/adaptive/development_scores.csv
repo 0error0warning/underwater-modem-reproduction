@@ -1,0 +1,9 @@
+name,train_efficiency_bps,validation_efficiency_bps,validation_slot_rate_bps,model
+fixed_0,16.695652173913025,27.82608695652171,8.000000000000004,"{""kind"": ""fixed"", ""guard_ms"": 0}"
+fixed_4,15.238095238095221,21.76870748299317,8.000000000000004,"{""kind"": ""fixed"", ""guard_ms"": 4}"
+fixed_8,18.77094972067038,18.77094972067038,8.400000000000002,"{""kind"": ""fixed"", ""guard_ms"": 8}"
+fixed_16,12.510288065843612,13.82716049382715,8.400000000000002,"{""kind"": ""fixed"", ""guard_ms"": 16}"
+fixed_32,10.781671159029647,10.350404312668461,9.600000000000003,"{""kind"": ""fixed"", ""guard_ms"": 32}"
+stump_delay_spread_ms,20.532877047176715,20.21660649819493,8.400000000000002,"{""kind"": ""stump"", ""feature"": ""delay_spread_ms"", ""threshold"": 5.716666666666681, ""left_guard_ms"": 8, ""right_guard_ms"": 0, ""fallback_guard_ms"": 8}"
+stump_sync_score,21.196063588190754,20.532877047176715,8.400000000000002,"{""kind"": ""stump"", ""feature"": ""sync_score"", ""threshold"": 0.49981536697038725, ""left_guard_ms"": 0, ""right_guard_ms"": 8, ""fallback_guard_ms"": 8}"
+stump_abs_velocity_hat,20.694752402069465,20.21660649819493,8.400000000000002,"{""kind"": ""stump"", ""feature"": ""abs_velocity_hat"", ""threshold"": 0.19365134829074498, ""left_guard_ms"": 8, ""right_guard_ms"": 0, ""fallback_guard_ms"": 8}"

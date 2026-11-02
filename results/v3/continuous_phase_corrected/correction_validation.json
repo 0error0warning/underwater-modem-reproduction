@@ -1,0 +1,75 @@
+{
+  "status": "PASS",
+  "analysis_type": "BUGFIX_REANALYSIS",
+  "not_new_holdout": true,
+  "packets": 595,
+  "record_policy_units": 40,
+  "full_horizon_s_per_unit": 32,
+  "full_horizon_denominator_verified": true,
+  "frozen_causal_policy_actions_verified": true,
+  "frozen": {
+    "policy_sha256": "b9f9f5e6136b1157ce67cc090f9c36a469b027c6a2cf8c38a6605301485c5415",
+    "frozen_sources": {
+      "matlab/+uac2/default_config.m": "55a081618512a28858cd43fe73da55466d118e88d533f6a925413d4451a4581a",
+      "matlab/+uac2/demodulate_scaled.m": "3770cdc135ec3e4d93a084200826ddf00ab948eb3ca1f2b8827775d1c8372532",
+      "matlab/+uac2/hfm_analytic.m": "c3f870ba626ac78faedb8580a64f14b3802a0c70ca0712c1b3f8abcc8ebf9755",
+      "matlab/+uac2/make_packet.m": "ede03e0666e388d04155750674305e3e8ef49e125c643fd7155914363e0e7bc5",
+      "matlab/+uac2/packet_layout.m": "b222bed564cf062a81b5b65e16aaf506ecb6ad5c5560ed80740c2de1ab0a70be",
+      "matlab/+uac2/receive_packet.m": "a4ca5b55fc48ef879c846d0f94b89e6cf54cbd0c4b23ba60b57a74fd6d613d5f",
+      "matlab/+uac2/replay_at.m": "1b064b7e077ccfb009b9c2dc994436aee4052b2508abff412a95449829d1afd0",
+      "matlab/+uac2/restore_bulk.m": "8f828c1b7d440c8a4333fcb801d5e95069ac9aa5baa4e9fa0fd50896dcb8ab40",
+      "matlab/+uac2/sinc_sample.m": "181dec460f5fdcc4e9a2560049da18f5ef3a0bda144917295940b041e3091c7e",
+      "matlab/run_link_v2.m": "962484d98c327c4631322e08e701642fd18f5c96f5a12694028b5e4b81f9e4b8",
+      "matlab/run_continuous_v2.m": "2e0f396d23b52c80f5bf78bb9d6161d6c935e44b3ae1c778ba2289f42caac250"
+    },
+    "preserved_v2_sources": {
+      "results\\v2\\metadata_development.json": "ca155cda580ffce33566eedd9ab6522969e12af5d7af45ea5a4f97b34253e437",
+      "results\\v2\\metadata_test.json": "5e87461da2090e561422939a7cbc288d15b1573d309449abcd476ad61545d1f5",
+      "results\\v2\\metadata_continuous.json": "fda0c4cb71ce3aa360cb9a88fa2bd299fab45ae5928f7ffaceb06b93f0ec361c",
+      "results\\v2\\records_development.csv": "030dd5d727f06165ee25e0d1cf366fb52fc34f59689b3f50cfa142f4903466c2",
+      "results\\v2\\records_test.csv": "597756e7ab53c7bb815c55fc277edcbfcf3c1b4b5f5a88d98f8be5e39f71d724",
+      "results\\v2\\records_continuous.csv": "a007d36491be0b275e0cb815edbad94aa780fd7e82a50c82fa7efb444a9a370f",
+      "results\\receiver_v2\\validation.json": "ecaf7a651e0775e5f6b846d9be0bb4149eba239e71a7cb5832824e540f0ac6fd",
+      "results\\receiver_v2\\validation_cases.csv": "c6849a2a1d39ef8fb59c24fb62904f1dc16af1b9503d91d6404bd4adeb3d455f",
+      "results\\receiver_v2\\long_packet_doppler.json": "b6af67266b09d61e2e9cdd2af4a825317e5974a3ce56a3d5e7e5ac919f45de9e"
+    },
+    "intentional_report_notice_changes": {
+      "tools\\report_link_v2.py": {
+        "old_sha256": "486f735c7faba5b704bbe5e47f9aa94e7a0c7b76b6fd15f538923dc70dbf2f26",
+        "current_sha256": "6899983c9e01071604aa6480c701bc34bd42c1ffa6a71e8ead257cd7204148eb",
+        "reason": "Parent task intentionally added a V2 continuous-result correction notice; receiver, data, driver and policy frozen hashes unaffected"
+      }
+    },
+    "computational_loop_only_phase_shadow_fix": true
+  },
+  "phase": {
+    "common_packet_pairs": 255,
+    "identical_phase_pairs": 255,
+    "maximum_pair_phase_difference_rad": 0.0,
+    "phase_range_by_policy": {
+      "adaptive_stump": {
+        "min": 0.0271217610884229,
+        "max": 6.26225851815356,
+        "size": 255
+      },
+      "best_fixed": {
+        "min": 0.0271217610884229,
+        "max": 6.27186237336763,
+        "size": 340
+      }
+    },
+    "unpaired_extra_packet_ids": 85
+  },
+  "resampling": {
+    "repeats": 2000,
+    "seed": 2026110207,
+    "unit": "paired record within channel"
+  },
+  "sha256": {
+    "results\\v3\\continuous_phase_corrected\\records_continuous.csv": "d8236db19fc86c2f9f33cc521c55ca7f815aefdd4639bce6a4ad6779373d76ab",
+    "results\\v3\\continuous_phase_corrected\\metadata_continuous.json": "6809da66559251c5681f745354435ee43f4a0fdd579a14ce7c3b14c7fac01e6e",
+    "results\\v3\\continuous_phase_corrected\\preflight.json": "fe6093fc737484e8eba0f4729b18342a758a4895538a8b13e9ddbe81af415c30",
+    "tools\\report_continuous_phasecheck_v3.py": "17bcb8c686dab542d6dcc5b8947d5c811633f5c48c6ff3c1b56b137eba28c81b",
+    "matlab\\run_continuous_phasecheck_v3.m": "baa3876a3cd99be27557f2a2559370883bd073e7a9e0a0247832773805e56dab"
+  }
+}

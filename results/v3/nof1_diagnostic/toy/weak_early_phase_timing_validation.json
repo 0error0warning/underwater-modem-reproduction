@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "seed": 2026110210,
+  "bits_per_condition": 1008,
+  "rows": 768,
+  "four_ms_path_configurations": 96,
+  "four_ms_reset_first_worse_than_strong": 49,
+  "four_ms_continuous_first_better_than_reset": 49,
+  "eight_ms_reset_continuous_decisions_equal": true,
+  "example_selection": "Largest synthetic error-count difference within the declared 3 delays x 4 gains x 8 phases; illustrative only, not fitted to NOF1.",
+  "examples": [
+    {
+      "on_ms": 4,
+      "late_delay_ms": 1.25,
+      "early_amplitude": 0.2,
+      "late_phase_pi": 1.75,
+      "reset_first": 762,
+      "reset_strong": 0,
+      "continuous_first": 0,
+      "continuous_strong": 0,
+      "reset_first_minus_strong": 762,
+      "first_reset_minus_continuous": 762
+    },
+    {
+      "on_ms": 4,
+      "late_delay_ms": 1.25,
+      "early_amplitude": 0.2,
+      "late_phase_pi": 0.25,
+      "reset_first": 761,
+      "reset_strong": 0,
+      "continuous_first": 0,
+      "continuous_strong": 0,
+      "reset_first_minus_strong": 761,
+      "first_reset_minus_continuous": 761
+    },
+    {
+      "on_ms": 4,
+      "late_delay_ms": 1.0,
+      "early_amplitude": 0.2,
+      "late_phase_pi": 1.0,
+      "reset_first": 515,
+      "reset_strong": 0,
+      "continuous_first": 0,
+      "continuous_strong": 0,
+      "reset_first_minus_strong": 515,
+      "first_reset_minus_continuous": 515
+    }
+  ],
+  "scope": "Two synthetic complex-gain rays, no noise, exact known timing choices and true unit scale. This tests an interaction mechanism; it is not a fit to the measured NOF1 impulse response."
+}

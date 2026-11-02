@@ -1,0 +1,3 @@
+# Preserve the exact bytes of frozen source files and experimental evidence.
+* -text
+

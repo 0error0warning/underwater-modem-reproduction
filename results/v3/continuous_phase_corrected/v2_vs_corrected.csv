@@ -1,0 +1,7 @@
+policy,channel,packets_old,packets_corrected,zero_error_packets_old,zero_error_packets_corrected,full_horizon_bps_old,full_horizon_bps_corrected,correction_delta_bps
+adaptive_stump,ALL,255,255,50,49,10.0,9.8,-0.1999999999999993
+adaptive_stump,NCS1,139,139,0,0,0.0,0.0,0.0
+adaptive_stump,NOF1,116,116,50,49,20.0,19.6,-0.3999999999999986
+best_fixed,ALL,340,340,57,58,11.4,11.6,0.1999999999999993
+best_fixed,NCS1,170,170,0,0,0.0,0.0,0.0
+best_fixed,NOF1,170,170,57,58,22.8,23.2,0.3999999999999986

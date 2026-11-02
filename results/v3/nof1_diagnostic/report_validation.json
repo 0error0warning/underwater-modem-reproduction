@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "records": [
+    1,
+    2,
+    3
+  ],
+  "heldout_records_used": [],
+  "events": 390,
+  "decoder_rows": 2730,
+  "sweep_rows": 990,
+  "original_regression_packets": 60,
+  "primary_baseline_errors": 373,
+  "primary_baseline_bits": 960,
+  "primary_main_peak_errors": 24,
+  "primary_true_scale_errors": 362,
+  "primary_pdp_oracle_errors": 23,
+  "primary_fft_errors": 209,
+  "integer_stride_phase_pairs": 150,
+  "shared_variance_phase_start_verified": true,
+  "confirmation_records": [
+    4,
+    5
+  ],
+  "confirmation_is_independent_holdout": false,
+  "all_prespecified_conditions_reported": true,
+  "timing_sweep_not_selected_for_deployment": true,
+  "figures": [
+    "results/v3/nof1_diagnostic/plots/01_same_waveform_ablation.png",
+    "results/v3/nof1_diagnostic/plots/02_phase_frequency_interaction.png",
+    "results/v3/nof1_diagnostic/plots/03_timing_sensitivity_sweep.png"
+  ],
+  "sha256": {
+    "results/v3/nof1_diagnostic/decoder_results.csv": "7a984f1b3451365250e91f51c56c024b8a65ef477b048bf5c07f32b16977226d",
+    "results/v3/nof1_diagnostic/events.csv": "d6e44ad49a321046d75aa8492eb6bdfbb0b52e7715433057be30eec04da1730b",
+    "results/v3/nof1_diagnostic/timing_sweep.csv": "f9f63516c952e3b15b76397435cb179f392b25a9507ffd7f046d9a6308d7fbe8",
+    "results/v3/nof1_diagnostic/metadata.json": "cf842f060a62ee3eef2b5a93763598208522f48a66b50857696fc154ccec5aaf",
+    "results/v2/paper_alignment/per_packet.csv": "66754ae20bc229ed9453babcba30691ee7437f8537ddb6e781fabdf28e882130",
+    "matlab/run_nof1_diagnostic_v3.m": "e312aa9f6bc65d0c9f7d3869f0954b5d86c1f47de7b8cfadfef5114e59d815d7",
+    "matlab/+uac2/receive_packet.m": "a4ca5b55fc48ef879c846d0f94b89e6cf54cbd0c4b23ba60b57a74fd6d613d5f",
+    "matlab/+uac2/default_config.m": "55a081618512a28858cd43fe73da55466d118e88d533f6a925413d4451a4581a",
+    "tools/report_nof1_diagnostic_v3.py": "4c03a6ce26832276e6a7e207320d2eef34b831b7875d30ad0fc343a399daca65",
+    "results/v3/nof1_diagnostic/confirmation/metadata.json": "7b192ccc9bc6d1331acfa152f158df8b711e382484b0d045da460ead225ce285",
+    "results/v3/nof1_diagnostic/confirmation/decoder_results.csv": "e4b1ed74d5c0b7670b69f7d3245b926f8c9b3c0a2113170ccfe179e2e12c60dd",
+    "results/v3/nof1_diagnostic/confirmation/events.csv": "1559baf2eae2ed26604087057a66ea98495c82a58ae9c9340c44457cc4b21285",
+    "results/v3/nof1_diagnostic/toy/README.md": "43e79a8b93f81b707baaf80095b042b75457fadad5bfc5af46f76cec44cf35db"
+  }
+}

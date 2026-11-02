@@ -1,0 +1,3 @@
+noise_mode,all_conditions,exact_reference_conditions,compared_exact_conditions,no_decoded_ber_conditions,paper_upper_bound_conditions,mean_absolute_ber_difference,max_absolute_ber_difference
+ebn0_received,48,45,34,12,3,0.12747847276293967,0.630925
+sample_snr_packet,48,45,45,0,3,0.04650611111111111,0.2789083333333333

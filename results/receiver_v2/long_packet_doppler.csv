@@ -1,0 +1,4 @@
+velocity_true,alpha_true,velocity_hat,detected,payload_bits,errors_corrected,errors_uncorrected
+-1.5,0.999000999000999,-1.49952790619306,1,512,0,48
+0,1,-0.00588320202823723,1,512,0,0
+1.5,1.001001001001,1.50257845406099,1,512,0,38

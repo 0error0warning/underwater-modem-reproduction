@@ -1,0 +1,36 @@
+{
+  "status": "COMPLETE_FROZEN_POLICY_EVALUATION",
+  "created_utc": "2026-11-02T08:26:08.337233+00:00",
+  "test_source": "results/v2/records_test.csv",
+  "test_sha256": "597756e7ab53c7bb815c55fc277edcbfcf3c1b4b5f5a88d98f8be5e39f71d724",
+  "policy_sha256": "b9f9f5e6136b1157ce67cc090f9c36a469b027c6a2cf8c38a6605301485c5415",
+  "protocol_sha256": "ef6ca11f50b16323dfba087becd5e4322f7dda0c445a22edd378a378c7fb697b",
+  "record_ids": [
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40
+  ],
+  "preamble_feature_cross_guard_ranges": {
+    "delay_spread_ms": {
+      "max_finite_cross_guard_range": 0.0,
+      "events_with_finite_values": 300
+    },
+    "sync_score": {
+      "max_finite_cross_guard_range": 2.630118345336996e-13,
+      "events_with_finite_values": 300
+    },
+    "abs_velocity_hat": {
+      "max_finite_cross_guard_range": 1.740274591099933e-13,
+      "events_with_finite_values": 300
+    }
+  },
+  "note": "Features may differ across guard outcomes; recursive evaluation uses only the preceding chosen action, never a free reference probe.",
+  "bootstrap": "2000 paired whole-record resamples, stratified by channel; adjacent-record dependence remains a limitation"
+}

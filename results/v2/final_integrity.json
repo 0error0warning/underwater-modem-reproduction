@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "checks": {
+    "receiver_code_unchanged_after_freeze": true,
+    "development_unchanged": true,
+    "policy_unchanged": true,
+    "test_grid": true,
+    "erasure_accounting": true,
+    "continuous_grid": true
+  },
+  "test_rows": 4500,
+  "continuous_rows": 595
+}

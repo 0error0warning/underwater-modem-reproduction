@@ -1,0 +1,230 @@
+{
+  "source": "https://www.ffi.no/en/research/watermark/_/attachment/download/cc46828f-0078-46a1-bf77-8cee63b50056%3Af3b02654a06b2405fa042a5d0a05ce1b77305e40/WatermarkV1.zip",
+  "files": [
+    {
+      "name": "Watermark/doc/readme.txt",
+      "sha256": "5fce6c10c21b172bd3ed349b87ac6fe34743b5b88e7f7c5f7e8e815c1fa4dfba",
+      "bytes": 3868
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_001.mat",
+      "sha256": "9fdb627e9e441b2477ae13d57d85e85d92d6391f0a99406fab6d2e7ec1376544",
+      "bytes": 4832443
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_001.mat",
+      "sha256": "309f40b0a51f849371768070e526e129c0e06efe2dd81e9984882e668f9a2dd9",
+      "bytes": 4849962
+    },
+    {
+      "name": "Watermark/matlab/pfetch.m",
+      "sha256": "2b7be80d4909d2f699d7968f27f6089d2620482c51eb3b45c9ed9d3515dc8bad",
+      "bytes": 3182
+    },
+    {
+      "name": "Watermark/matlab/replayfilter.m",
+      "sha256": "cc9f2581396df261647a3732028db072166af832b8164765a02862c32cc09d53",
+      "bytes": 1361
+    },
+    {
+      "name": "Watermark/matlab/sfetch.m",
+      "sha256": "f1eacc3499ffed037e0968e024d087ac352ef00bbf8f6a98489795ed26556088",
+      "bytes": 4203
+    },
+    {
+      "name": "Watermark/matlab/watermark.m",
+      "sha256": "5d29b77bc4f9f20415c56457452f8a541f38a1f39e3cedb190585e52a0282095",
+      "bytes": 5406
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_002.mat",
+      "sha256": "4a00ed2183e8bbeb64914486a44fa2273ac34f99195f8a7712c3f7fa6888e10c",
+      "bytes": 4833448
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_003.mat",
+      "sha256": "562383c6b22ef55c082d0a4d209c05f1ba75271845947e8e42b8b2b169e91d18",
+      "bytes": 4832476
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_002.mat",
+      "sha256": "9c58eac499211fe48f318cf47f231284abf727efeacaea7791feb940f9615ffc",
+      "bytes": 4847066
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_003.mat",
+      "sha256": "dfba612ddc08616aa86b69c3176be29bef92f4f0389b08ea90ed01cca9e81baf",
+      "bytes": 4850193
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_004.mat",
+      "sha256": "ab67608817b6b5914c4d64e4a9eef6844c3617141342255e751aeed608ae3a01",
+      "bytes": 4833040
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_005.mat",
+      "sha256": "a8fc4f038e833ae30a5e0cfc218ff4eec43e4e47008e06e5f9d585fdab1a19c4",
+      "bytes": 4833071
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_006.mat",
+      "sha256": "695c74975e8c02b57aebce97223873557cfab3fc232cfeb386be24e0fa4006ff",
+      "bytes": 4832623
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_007.mat",
+      "sha256": "9731d28afff0cc90fb5f7a20180878f6f0ec2fd562d178f89bf405f4d26da2a5",
+      "bytes": 4832486
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_008.mat",
+      "sha256": "46605b8aac9edbc5745555be4fc617d13595f3bef76f999de17dc62542bbb08a",
+      "bytes": 4833453
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_009.mat",
+      "sha256": "9334752c5ee0edcb5e729627c9ee82e109001179c3d29e77add3e3085177efd0",
+      "bytes": 4833932
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_010.mat",
+      "sha256": "1d45fb1739f81b40cb1623ba39dfbdf641b8059453867d9502efb1ee82d8f30a",
+      "bytes": 4835159
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_004.mat",
+      "sha256": "bb298550c9f9f6f32c039268bb30a9bc12d431a03b60e19c7980c512915cd5d7",
+      "bytes": 4848081
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_005.mat",
+      "sha256": "87ac4a0959f322387b7b69a4699c2ec116026f07bc2c5ce588a6b217c2c0b6a8",
+      "bytes": 4844250
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_006.mat",
+      "sha256": "ae1fd5b4c0918eb56eeb2d5ef71a2afbd863d54cf2d6928ca147e18347ce306f",
+      "bytes": 4844488
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_007.mat",
+      "sha256": "00be59652a729ab4a16550e7792b6f415059230d321465768fb478719635d25c",
+      "bytes": 4839249
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_008.mat",
+      "sha256": "8a22adb1ae5418e1570327eebbb585ef2832e53903daece42431df0c467b15c7",
+      "bytes": 4837773
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_009.mat",
+      "sha256": "88db7d72fb750685be7b5290e885bf2f2012818d4f8fdee57fb15bf149d6d5be",
+      "bytes": 4835312
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_010.mat",
+      "sha256": "0e494aa07557554b89e86637e21a614f04a0530d6c9a00d89f3f32fff18394a0",
+      "bytes": 4842950
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_031.mat",
+      "sha256": "6de1c0b66a87b52ff135862b80b26ebadcb3242a08be05d7ee135968101e8d93",
+      "bytes": 4833980
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_032.mat",
+      "sha256": "fd3e43cd41766730c3ea657ec7e2ec8c433693227ca86a94aca0eed71a364996",
+      "bytes": 4833802
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_033.mat",
+      "sha256": "b41c42d8924de7233b24f54e43b14cdde4030d4c9f44d6f63256e515244cf4ce",
+      "bytes": 4832693
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_034.mat",
+      "sha256": "30416df74eaaff68d19f200eb41fbfa6512a8b5a429df1d12268cc8f1e6ef0f3",
+      "bytes": 4834997
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_035.mat",
+      "sha256": "027bbf5d627fccd973e6ecfb342994b4b5a163b38157bf7cc58e009330d64f68",
+      "bytes": 4833976
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_036.mat",
+      "sha256": "ebadbe8fe7d4703d2c2aa7d8677b4a6fa54582a74cf404e860c8e00a78f0ffde",
+      "bytes": 4831740
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_037.mat",
+      "sha256": "6e551f5f259fb26cde6e754f9035971a12681ebef262506311b4232400a48c50",
+      "bytes": 4832723
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_038.mat",
+      "sha256": "41802d3d4808adc51e9e67511de2d9a44381e4207060dd2edd6a926701e4007d",
+      "bytes": 4832895
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_039.mat",
+      "sha256": "e4485ab051db2d8f2fae1e57480a88845ba03cf64f9093c4555e2ba48d27bced",
+      "bytes": 4833033
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_040.mat",
+      "sha256": "2c9a67f4d23231381d27f48f705fcd054e982a9271617367efa8eabd8b3e62ff",
+      "bytes": 4833273
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_031.mat",
+      "sha256": "beef7e416032668ab152391e9a789709706dd70a2c73e843c67033f8b9c9bf33",
+      "bytes": 4849721
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_032.mat",
+      "sha256": "624f184b091620010dabf57b506fef6bddb93f84d483f48b54cb7ad851fca06c",
+      "bytes": 4836596
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_033.mat",
+      "sha256": "277d9c5cd2ecdab7e5d8204f1faa88000c0a2a8474e09681d9a284bd78ae6a7d",
+      "bytes": 4841150
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_034.mat",
+      "sha256": "b3a9d0ec6a4ca05d7be9b63579abe31121dd5e0364abd052a87c88c04f8ee23e",
+      "bytes": 4840376
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_035.mat",
+      "sha256": "a57523c2e3db6f44cb62d2e1289c8893478a9c239abde72d6a9d6574cdc1af84",
+      "bytes": 4844890
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_036.mat",
+      "sha256": "6c35f90479999a1d9cc55681d3ac3eb493b17c3faf52c0e72f9d7ad544c4fa5d",
+      "bytes": 4848564
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_037.mat",
+      "sha256": "95929ee74acab6aa88c94a7eb53c9ab3c21fdcbe5674744584c17b43a8edbd55",
+      "bytes": 4848004
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_038.mat",
+      "sha256": "5f679881fc37267ac18fcb846fc3d327868e851dc484797ef65526f18a63ebcc",
+      "bytes": 4849412
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_039.mat",
+      "sha256": "f1c85bbe622a544f01bdcbda9b91f69b188fd5487301de7004c67f8346c84338",
+      "bytes": 4846593
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_040.mat",
+      "sha256": "dc02cc4d77f4659964746fb810079c5dfb95dd9d4205b2f6459a960eb9c27b15",
+      "bytes": 4852038
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "summary_rows": 144,
+  "sounding_rows": 1440,
+  "packet_rows": 28800,
+  "all_summary_counts_recomputed_from_packets": true,
+  "source_files_verified": 25,
+  "source_sha256_all_match": true,
+  "scope": "Count reconciliation and source integrity; does not establish exact reproduction of unpublished paper settings"
+}

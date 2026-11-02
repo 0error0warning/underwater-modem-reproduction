@@ -1,0 +1,28 @@
+{
+  "analysis_type": "BUGFIX_REANALYSIS",
+  "created_utc": "2026-11-02T08:45:51.701313+00:00",
+  "policy_sha256": "b9f9f5e6136b1157ce67cc090f9c36a469b027c6a2cf8c38a6605301485c5415",
+  "expected_original_policy_sha256": "b9f9f5e6136b1157ce67cc090f9c36a469b027c6a2cf8c38a6605301485c5415",
+  "old_driver_sha256": "2e0f396d23b52c80f5bf78bb9d6161d6c935e44b3ae1c778ba2289f42caac250",
+  "new_driver_sha256": "baa3876a3cd99be27557f2a2559370883bd073e7a9e0a0247832773805e56dab",
+  "random_expressions_unchanged": [
+    "rng(2026110202+ci*100000+number,'twister');",
+    "rng(seed+ci*100000+number,'twister');",
+    "rng(seed+ci*10000000+number*10000+packetId,'twister');",
+    "bits=randi([0,1],nBits,1); cfg.phase_rad=2*pi*rand();",
+    "padding=round((.12+.22*rand())*fs);",
+    "noise=sqrt(calibrationPower/10^(snrDb/10))*randn(round((horizon+4)*fs),1);"
+  ],
+  "receiver_hashes": {
+    "default_config.m": "55a081618512a28858cd43fe73da55466d118e88d533f6a925413d4451a4581a",
+    "demodulate_scaled.m": "3770cdc135ec3e4d93a084200826ddf00ab948eb3ca1f2b8827775d1c8372532",
+    "hfm_analytic.m": "c3f870ba626ac78faedb8580a64f14b3802a0c70ca0712c1b3f8abcc8ebf9755",
+    "make_packet.m": "ede03e0666e388d04155750674305e3e8ef49e125c643fd7155914363e0e7bc5",
+    "packet_layout.m": "b222bed564cf062a81b5b65e16aaf506ecb6ad5c5560ed80740c2de1ab0a70be",
+    "receive_packet.m": "a4ca5b55fc48ef879c846d0f94b89e6cf54cbd0c4b23ba60b57a74fd6d613d5f",
+    "replay_at.m": "1b064b7e077ccfb009b9c2dc994436aee4052b2508abff412a95449829d1afd0",
+    "restore_bulk.m": "8f828c1b7d440c8a4333fcb801d5e95069ac9aa5baa4e9fa0fd50896dcb8ab40",
+    "sinc_sample.m": "181dec460f5fdcc4e9a2560049da18f5ef3a0bda144917295940b041e3091c7e"
+  },
+  "scope": "Same revealed records31-40; bugfix reanalysis, not a fresh holdout. Original V2 files preserved."
+}

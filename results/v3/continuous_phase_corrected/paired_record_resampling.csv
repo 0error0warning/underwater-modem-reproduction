@@ -1,0 +1,4 @@
+channel,records,fixed_mean_bps,adaptive_mean_bps,mean_difference_bps,resample_p025_bps,resample_p975_bps,resamples,resample_seed
+NCS1,10,0.0,0.0,0.0,0.0,0.0,2000,2026110207
+NOF1,10,23.2,19.6,-3.6,-11.2,4.409999999999946,2000,2026110207
+ALL (stratified),20,11.6,9.8,-1.8,-5.6,2.204999999999973,2000,2026110207

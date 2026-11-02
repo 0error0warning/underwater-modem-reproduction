@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "full_run": true,
+  "packet_rows": 1440,
+  "condition_rows": 96,
+  "paper_comparison_rows": 96,
+  "heldout_records_used": [],
+  "noise_variance_ratio_verified": true,
+  "sha256": {
+    "matlab\\run_paper_alignment_v2.m": "4b4e8fa8de62889279f38487dd39410d66fbf76b9fe4c8009f5efca9dcbfb113",
+    "tools\\report_paper_alignment_v2.py": "006172e9107d7b4229d96f5f4fa8e90685ea30844ef791213ad2069412cfc406",
+    "matlab\\+uac2\\receive_packet.m": "a4ca5b55fc48ef879c846d0f94b89e6cf54cbd0c4b23ba60b57a74fd6d613d5f",
+    "matlab\\+uac2\\default_config.m": "55a081618512a28858cd43fe73da55466d118e88d533f6a925413d4451a4581a",
+    "references\\paper_bfsk_reference.csv": "015333b5d3ed954dc61b8ad531deafa2bb64122b605b8e42c904d4d299718eb8",
+    "results\\v2\\paper_alignment\\per_packet.csv": "66754ae20bc229ed9453babcba30691ee7437f8537ddb6e781fabdf28e882130"
+  }
+}

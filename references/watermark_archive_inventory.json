@@ -1,0 +1,1590 @@
+{
+  "source": "https://www.ffi.no/en/research/watermark/_/attachment/download/cc46828f-0078-46a1-bf77-8cee63b50056%3Af3b02654a06b2405fa042a5d0a05ce1b77305e40/WatermarkV1.zip",
+  "files": [
+    {
+      "name": "Watermark/doc/readme.txt",
+      "bytes": 3868,
+      "compressed_bytes": 1849
+    },
+    {
+      "name": "Watermark/input/channels/BCH1/mat/BCH1_001.mat",
+      "bytes": 18277247,
+      "compressed_bytes": 18280005
+    },
+    {
+      "name": "Watermark/input/channels/BCH1/mat/BCH1_002.mat",
+      "bytes": 18275439,
+      "compressed_bytes": 18278175
+    },
+    {
+      "name": "Watermark/input/channels/BCH1/mat/BCH1_003.mat",
+      "bytes": 18279899,
+      "compressed_bytes": 18282665
+    },
+    {
+      "name": "Watermark/input/channels/BCH1/mat/BCH1_004.mat",
+      "bytes": 18275729,
+      "compressed_bytes": 18278463
+    },
+    {
+      "name": "Watermark/input/channels/BCH1/png/BCH1_001.png",
+      "bytes": 191081,
+      "compressed_bytes": 185584
+    },
+    {
+      "name": "Watermark/input/channels/BCH1/png/BCH1_002.png",
+      "bytes": 196698,
+      "compressed_bytes": 191136
+    },
+    {
+      "name": "Watermark/input/channels/BCH1/png/BCH1_003.png",
+      "bytes": 246281,
+      "compressed_bytes": 240904
+    },
+    {
+      "name": "Watermark/input/channels/BCH1/png/BCH1_004.png",
+      "bytes": 226233,
+      "compressed_bytes": 220818
+    },
+    {
+      "name": "Watermark/input/channels/KAU1/mat/KAU1_001.mat",
+      "bytes": 2451976,
+      "compressed_bytes": 2444944
+    },
+    {
+      "name": "Watermark/input/channels/KAU1/mat/KAU1_002.mat",
+      "bytes": 2509649,
+      "compressed_bytes": 2497072
+    },
+    {
+      "name": "Watermark/input/channels/KAU1/mat/KAU1_003.mat",
+      "bytes": 2450805,
+      "compressed_bytes": 2443558
+    },
+    {
+      "name": "Watermark/input/channels/KAU1/mat/KAU1_004.mat",
+      "bytes": 2450793,
+      "compressed_bytes": 2443695
+    },
+    {
+      "name": "Watermark/input/channels/KAU1/mat/KAU1_005.mat",
+      "bytes": 2450406,
+      "compressed_bytes": 2443347
+    },
+    {
+      "name": "Watermark/input/channels/KAU1/mat/KAU1_006.mat",
+      "bytes": 2451415,
+      "compressed_bytes": 2444237
+    },
+    {
+      "name": "Watermark/input/channels/KAU1/mat/KAU1_007.mat",
+      "bytes": 2451739,
+      "compressed_bytes": 2444647
+    },
+    {
+      "name": "Watermark/input/channels/KAU1/mat/KAU1_008.mat",
+      "bytes": 2451891,
+      "compressed_bytes": 2444404
+    },
+    {
+      "name": "Watermark/input/channels/KAU1/mat/KAU1_009.mat",
+      "bytes": 2452727,
+      "compressed_bytes": 2445560
+    },
+    {
+      "name": "Watermark/input/channels/KAU1/mat/KAU1_010.mat",
+      "bytes": 2452437,
+      "compressed_bytes": 2445533
+    },
+    {
+      "name": "Watermark/input/channels/KAU1/mat/KAU1_011.mat",
+      "bytes": 2452880,
+      "compressed_bytes": 2445694
+    },
+    {
+      "name": "Watermark/input/channels/KAU1/mat/KAU1_012.mat",
+      "bytes": 2453797,
+      "compressed_bytes": 2446828
+    },
+    {
+      "name": "Watermark/input/channels/KAU1/mat/KAU1_013.mat",
+      "bytes": 2453163,
+      "compressed_bytes": 2445922
+    },
+    {
+      "name": "Watermark/input/channels/KAU1/mat/KAU1_014.mat",
+      "bytes": 2453103,
+      "compressed_bytes": 2445933
+    },
+    {
+      "name": "Watermark/input/channels/KAU1/mat/KAU1_015.mat",
+      "bytes": 2451866,
+      "compressed_bytes": 2444745
+    },
+    {
+      "name": "Watermark/input/channels/KAU1/mat/KAU1_016.mat",
+      "bytes": 2454002,
+      "compressed_bytes": 2446731
+    },
+    {
+      "name": "Watermark/input/channels/KAU1/png/KAU1_001.png",
+      "bytes": 242198,
+      "compressed_bytes": 236459
+    },
+    {
+      "name": "Watermark/input/channels/KAU1/png/KAU1_002.png",
+      "bytes": 354966,
+      "compressed_bytes": 345988
+    },
+    {
+      "name": "Watermark/input/channels/KAU1/png/KAU1_003.png",
+      "bytes": 258325,
+      "compressed_bytes": 252445
+    },
+    {
+      "name": "Watermark/input/channels/KAU1/png/KAU1_004.png",
+      "bytes": 281375,
+      "compressed_bytes": 275215
+    },
+    {
+      "name": "Watermark/input/channels/KAU1/png/KAU1_005.png",
+      "bytes": 276952,
+      "compressed_bytes": 271190
+    },
+    {
+      "name": "Watermark/input/channels/KAU1/png/KAU1_006.png",
+      "bytes": 280808,
+      "compressed_bytes": 274668
+    },
+    {
+      "name": "Watermark/input/channels/KAU1/png/KAU1_007.png",
+      "bytes": 303700,
+      "compressed_bytes": 297299
+    },
+    {
+      "name": "Watermark/input/channels/KAU1/png/KAU1_008.png",
+      "bytes": 284396,
+      "compressed_bytes": 278012
+    },
+    {
+      "name": "Watermark/input/channels/KAU1/png/KAU1_009.png",
+      "bytes": 277263,
+      "compressed_bytes": 271303
+    },
+    {
+      "name": "Watermark/input/channels/KAU1/png/KAU1_010.png",
+      "bytes": 279303,
+      "compressed_bytes": 272645
+    },
+    {
+      "name": "Watermark/input/channels/KAU1/png/KAU1_011.png",
+      "bytes": 231392,
+      "compressed_bytes": 225729
+    },
+    {
+      "name": "Watermark/input/channels/KAU1/png/KAU1_012.png",
+      "bytes": 240883,
+      "compressed_bytes": 234943
+    },
+    {
+      "name": "Watermark/input/channels/KAU1/png/KAU1_013.png",
+      "bytes": 265601,
+      "compressed_bytes": 259192
+    },
+    {
+      "name": "Watermark/input/channels/KAU1/png/KAU1_014.png",
+      "bytes": 262385,
+      "compressed_bytes": 256443
+    },
+    {
+      "name": "Watermark/input/channels/KAU1/png/KAU1_015.png",
+      "bytes": 258501,
+      "compressed_bytes": 252614
+    },
+    {
+      "name": "Watermark/input/channels/KAU1/png/KAU1_016.png",
+      "bytes": 270075,
+      "compressed_bytes": 264232
+    },
+    {
+      "name": "Watermark/input/channels/KAU2/mat/KAU2_001.mat",
+      "bytes": 2444578,
+      "compressed_bytes": 2437928
+    },
+    {
+      "name": "Watermark/input/channels/KAU2/mat/KAU2_002.mat",
+      "bytes": 2445334,
+      "compressed_bytes": 2438849
+    },
+    {
+      "name": "Watermark/input/channels/KAU2/mat/KAU2_003.mat",
+      "bytes": 2444665,
+      "compressed_bytes": 2438037
+    },
+    {
+      "name": "Watermark/input/channels/KAU2/mat/KAU2_004.mat",
+      "bytes": 2445483,
+      "compressed_bytes": 2438823
+    },
+    {
+      "name": "Watermark/input/channels/KAU2/mat/KAU2_005.mat",
+      "bytes": 2446119,
+      "compressed_bytes": 2439454
+    },
+    {
+      "name": "Watermark/input/channels/KAU2/mat/KAU2_006.mat",
+      "bytes": 2444353,
+      "compressed_bytes": 2437715
+    },
+    {
+      "name": "Watermark/input/channels/KAU2/mat/KAU2_007.mat",
+      "bytes": 2443743,
+      "compressed_bytes": 2437425
+    },
+    {
+      "name": "Watermark/input/channels/KAU2/mat/KAU2_008.mat",
+      "bytes": 2444211,
+      "compressed_bytes": 2437767
+    },
+    {
+      "name": "Watermark/input/channels/KAU2/mat/KAU2_009.mat",
+      "bytes": 2444034,
+      "compressed_bytes": 2437507
+    },
+    {
+      "name": "Watermark/input/channels/KAU2/mat/KAU2_010.mat",
+      "bytes": 2445062,
+      "compressed_bytes": 2438414
+    },
+    {
+      "name": "Watermark/input/channels/KAU2/mat/KAU2_011.mat",
+      "bytes": 2444897,
+      "compressed_bytes": 2438358
+    },
+    {
+      "name": "Watermark/input/channels/KAU2/mat/KAU2_012.mat",
+      "bytes": 2445327,
+      "compressed_bytes": 2438712
+    },
+    {
+      "name": "Watermark/input/channels/KAU2/mat/KAU2_013.mat",
+      "bytes": 2450819,
+      "compressed_bytes": 2444059
+    },
+    {
+      "name": "Watermark/input/channels/KAU2/mat/KAU2_014.mat",
+      "bytes": 2445834,
+      "compressed_bytes": 2439264
+    },
+    {
+      "name": "Watermark/input/channels/KAU2/mat/KAU2_015.mat",
+      "bytes": 2452882,
+      "compressed_bytes": 2445862
+    },
+    {
+      "name": "Watermark/input/channels/KAU2/mat/KAU2_016.mat",
+      "bytes": 2454710,
+      "compressed_bytes": 2447575
+    },
+    {
+      "name": "Watermark/input/channels/KAU2/png/KAU2_001.png",
+      "bytes": 329676,
+      "compressed_bytes": 323399
+    },
+    {
+      "name": "Watermark/input/channels/KAU2/png/KAU2_002.png",
+      "bytes": 319114,
+      "compressed_bytes": 312652
+    },
+    {
+      "name": "Watermark/input/channels/KAU2/png/KAU2_003.png",
+      "bytes": 296193,
+      "compressed_bytes": 290350
+    },
+    {
+      "name": "Watermark/input/channels/KAU2/png/KAU2_004.png",
+      "bytes": 274068,
+      "compressed_bytes": 268390
+    },
+    {
+      "name": "Watermark/input/channels/KAU2/png/KAU2_005.png",
+      "bytes": 311328,
+      "compressed_bytes": 304923
+    },
+    {
+      "name": "Watermark/input/channels/KAU2/png/KAU2_006.png",
+      "bytes": 334263,
+      "compressed_bytes": 328145
+    },
+    {
+      "name": "Watermark/input/channels/KAU2/png/KAU2_007.png",
+      "bytes": 314122,
+      "compressed_bytes": 308082
+    },
+    {
+      "name": "Watermark/input/channels/KAU2/png/KAU2_008.png",
+      "bytes": 293856,
+      "compressed_bytes": 288113
+    },
+    {
+      "name": "Watermark/input/channels/KAU2/png/KAU2_009.png",
+      "bytes": 307175,
+      "compressed_bytes": 301143
+    },
+    {
+      "name": "Watermark/input/channels/KAU2/png/KAU2_010.png",
+      "bytes": 341777,
+      "compressed_bytes": 335039
+    },
+    {
+      "name": "Watermark/input/channels/KAU2/png/KAU2_011.png",
+      "bytes": 313596,
+      "compressed_bytes": 307400
+    },
+    {
+      "name": "Watermark/input/channels/KAU2/png/KAU2_012.png",
+      "bytes": 327216,
+      "compressed_bytes": 320970
+    },
+    {
+      "name": "Watermark/input/channels/KAU2/png/KAU2_013.png",
+      "bytes": 341161,
+      "compressed_bytes": 334208
+    },
+    {
+      "name": "Watermark/input/channels/KAU2/png/KAU2_014.png",
+      "bytes": 336777,
+      "compressed_bytes": 330008
+    },
+    {
+      "name": "Watermark/input/channels/KAU2/png/KAU2_015.png",
+      "bytes": 340999,
+      "compressed_bytes": 334736
+    },
+    {
+      "name": "Watermark/input/channels/KAU2/png/KAU2_016.png",
+      "bytes": 360567,
+      "compressed_bytes": 353781
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_001.mat",
+      "bytes": 4832443,
+      "compressed_bytes": 4818474
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_002.mat",
+      "bytes": 4833448,
+      "compressed_bytes": 4819785
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_003.mat",
+      "bytes": 4832476,
+      "compressed_bytes": 4818923
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_004.mat",
+      "bytes": 4833040,
+      "compressed_bytes": 4819466
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_005.mat",
+      "bytes": 4833071,
+      "compressed_bytes": 4819313
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_006.mat",
+      "bytes": 4832623,
+      "compressed_bytes": 4819064
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_007.mat",
+      "bytes": 4832486,
+      "compressed_bytes": 4818885
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_008.mat",
+      "bytes": 4833453,
+      "compressed_bytes": 4819870
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_009.mat",
+      "bytes": 4833932,
+      "compressed_bytes": 4820113
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_010.mat",
+      "bytes": 4835159,
+      "compressed_bytes": 4821394
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_011.mat",
+      "bytes": 4833281,
+      "compressed_bytes": 4819780
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_012.mat",
+      "bytes": 4833504,
+      "compressed_bytes": 4819693
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_013.mat",
+      "bytes": 4833450,
+      "compressed_bytes": 4819626
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_014.mat",
+      "bytes": 4833746,
+      "compressed_bytes": 4820048
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_015.mat",
+      "bytes": 4834624,
+      "compressed_bytes": 4820833
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_016.mat",
+      "bytes": 4834182,
+      "compressed_bytes": 4820536
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_017.mat",
+      "bytes": 4833435,
+      "compressed_bytes": 4819836
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_018.mat",
+      "bytes": 4833376,
+      "compressed_bytes": 4819646
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_019.mat",
+      "bytes": 4833580,
+      "compressed_bytes": 4819810
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_020.mat",
+      "bytes": 4834172,
+      "compressed_bytes": 4820400
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_021.mat",
+      "bytes": 4834562,
+      "compressed_bytes": 4820807
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_022.mat",
+      "bytes": 4834242,
+      "compressed_bytes": 4820425
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_023.mat",
+      "bytes": 4833404,
+      "compressed_bytes": 4819595
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_024.mat",
+      "bytes": 4833301,
+      "compressed_bytes": 4819614
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_025.mat",
+      "bytes": 4832752,
+      "compressed_bytes": 4819065
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_026.mat",
+      "bytes": 4833428,
+      "compressed_bytes": 4819711
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_027.mat",
+      "bytes": 4835126,
+      "compressed_bytes": 4821640
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_028.mat",
+      "bytes": 4834367,
+      "compressed_bytes": 4820708
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_029.mat",
+      "bytes": 4834536,
+      "compressed_bytes": 4820916
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_030.mat",
+      "bytes": 4833060,
+      "compressed_bytes": 4819250
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_031.mat",
+      "bytes": 4833980,
+      "compressed_bytes": 4820467
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_032.mat",
+      "bytes": 4833802,
+      "compressed_bytes": 4820137
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_033.mat",
+      "bytes": 4832693,
+      "compressed_bytes": 4818844
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_034.mat",
+      "bytes": 4834997,
+      "compressed_bytes": 4821367
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_035.mat",
+      "bytes": 4833976,
+      "compressed_bytes": 4820160
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_036.mat",
+      "bytes": 4831740,
+      "compressed_bytes": 4818223
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_037.mat",
+      "bytes": 4832723,
+      "compressed_bytes": 4819029
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_038.mat",
+      "bytes": 4832895,
+      "compressed_bytes": 4819028
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_039.mat",
+      "bytes": 4833033,
+      "compressed_bytes": 4819332
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_040.mat",
+      "bytes": 4833273,
+      "compressed_bytes": 4819601
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_041.mat",
+      "bytes": 4831784,
+      "compressed_bytes": 4818301
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_042.mat",
+      "bytes": 4833961,
+      "compressed_bytes": 4820024
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_043.mat",
+      "bytes": 4833266,
+      "compressed_bytes": 4819619
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_044.mat",
+      "bytes": 4832603,
+      "compressed_bytes": 4819014
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_045.mat",
+      "bytes": 4834590,
+      "compressed_bytes": 4820744
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_046.mat",
+      "bytes": 4833910,
+      "compressed_bytes": 4820124
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_047.mat",
+      "bytes": 4833730,
+      "compressed_bytes": 4819969
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_048.mat",
+      "bytes": 4832017,
+      "compressed_bytes": 4818414
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_049.mat",
+      "bytes": 4834256,
+      "compressed_bytes": 4820663
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_050.mat",
+      "bytes": 4833389,
+      "compressed_bytes": 4819746
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_051.mat",
+      "bytes": 4832226,
+      "compressed_bytes": 4818756
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_052.mat",
+      "bytes": 4832049,
+      "compressed_bytes": 4818300
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_053.mat",
+      "bytes": 4831767,
+      "compressed_bytes": 4818076
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_054.mat",
+      "bytes": 4832793,
+      "compressed_bytes": 4818970
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_055.mat",
+      "bytes": 4832463,
+      "compressed_bytes": 4818802
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_056.mat",
+      "bytes": 4832864,
+      "compressed_bytes": 4819177
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_057.mat",
+      "bytes": 4831739,
+      "compressed_bytes": 4817956
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_058.mat",
+      "bytes": 4832786,
+      "compressed_bytes": 4818928
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_059.mat",
+      "bytes": 4833361,
+      "compressed_bytes": 4819601
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/mat/NCS1_060.mat",
+      "bytes": 4833413,
+      "compressed_bytes": 4819690
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_001.png",
+      "bytes": 301393,
+      "compressed_bytes": 295231
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_002.png",
+      "bytes": 310969,
+      "compressed_bytes": 304272
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_003.png",
+      "bytes": 314685,
+      "compressed_bytes": 308388
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_004.png",
+      "bytes": 327840,
+      "compressed_bytes": 321200
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_005.png",
+      "bytes": 328320,
+      "compressed_bytes": 321910
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_006.png",
+      "bytes": 315125,
+      "compressed_bytes": 308623
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_007.png",
+      "bytes": 324417,
+      "compressed_bytes": 318050
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_008.png",
+      "bytes": 320766,
+      "compressed_bytes": 314135
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_009.png",
+      "bytes": 330894,
+      "compressed_bytes": 324385
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_010.png",
+      "bytes": 329237,
+      "compressed_bytes": 322642
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_011.png",
+      "bytes": 302968,
+      "compressed_bytes": 296474
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_012.png",
+      "bytes": 288614,
+      "compressed_bytes": 281961
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_013.png",
+      "bytes": 312175,
+      "compressed_bytes": 305798
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_014.png",
+      "bytes": 306683,
+      "compressed_bytes": 300226
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_015.png",
+      "bytes": 315014,
+      "compressed_bytes": 308458
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_016.png",
+      "bytes": 327017,
+      "compressed_bytes": 320540
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_017.png",
+      "bytes": 328642,
+      "compressed_bytes": 322085
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_018.png",
+      "bytes": 302308,
+      "compressed_bytes": 296117
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_019.png",
+      "bytes": 308785,
+      "compressed_bytes": 302143
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_020.png",
+      "bytes": 322191,
+      "compressed_bytes": 316041
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_021.png",
+      "bytes": 309259,
+      "compressed_bytes": 302703
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_022.png",
+      "bytes": 318642,
+      "compressed_bytes": 312108
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_023.png",
+      "bytes": 323955,
+      "compressed_bytes": 317495
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_024.png",
+      "bytes": 300173,
+      "compressed_bytes": 293719
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_025.png",
+      "bytes": 304171,
+      "compressed_bytes": 297528
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_026.png",
+      "bytes": 300630,
+      "compressed_bytes": 294314
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_027.png",
+      "bytes": 323727,
+      "compressed_bytes": 317303
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_028.png",
+      "bytes": 321566,
+      "compressed_bytes": 315389
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_029.png",
+      "bytes": 321708,
+      "compressed_bytes": 315179
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_030.png",
+      "bytes": 318646,
+      "compressed_bytes": 312350
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_031.png",
+      "bytes": 321778,
+      "compressed_bytes": 315531
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_032.png",
+      "bytes": 305269,
+      "compressed_bytes": 299029
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_033.png",
+      "bytes": 322614,
+      "compressed_bytes": 316292
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_034.png",
+      "bytes": 324397,
+      "compressed_bytes": 317832
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_035.png",
+      "bytes": 297781,
+      "compressed_bytes": 291127
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_036.png",
+      "bytes": 297434,
+      "compressed_bytes": 290934
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_037.png",
+      "bytes": 312569,
+      "compressed_bytes": 306128
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_038.png",
+      "bytes": 316284,
+      "compressed_bytes": 309629
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_039.png",
+      "bytes": 321774,
+      "compressed_bytes": 315159
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_040.png",
+      "bytes": 308684,
+      "compressed_bytes": 302250
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_041.png",
+      "bytes": 295222,
+      "compressed_bytes": 288964
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_042.png",
+      "bytes": 329413,
+      "compressed_bytes": 322825
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_043.png",
+      "bytes": 308972,
+      "compressed_bytes": 302388
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_044.png",
+      "bytes": 298956,
+      "compressed_bytes": 292407
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_045.png",
+      "bytes": 311408,
+      "compressed_bytes": 304881
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_046.png",
+      "bytes": 312477,
+      "compressed_bytes": 306264
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_047.png",
+      "bytes": 316824,
+      "compressed_bytes": 310694
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_048.png",
+      "bytes": 276606,
+      "compressed_bytes": 269858
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_049.png",
+      "bytes": 313732,
+      "compressed_bytes": 306967
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_050.png",
+      "bytes": 274582,
+      "compressed_bytes": 268131
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_051.png",
+      "bytes": 287647,
+      "compressed_bytes": 281217
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_052.png",
+      "bytes": 284408,
+      "compressed_bytes": 277776
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_053.png",
+      "bytes": 300806,
+      "compressed_bytes": 294299
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_054.png",
+      "bytes": 319123,
+      "compressed_bytes": 312869
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_055.png",
+      "bytes": 291836,
+      "compressed_bytes": 285473
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_056.png",
+      "bytes": 307749,
+      "compressed_bytes": 301303
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_057.png",
+      "bytes": 305447,
+      "compressed_bytes": 298854
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_058.png",
+      "bytes": 300364,
+      "compressed_bytes": 294107
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_059.png",
+      "bytes": 317823,
+      "compressed_bytes": 311283
+    },
+    {
+      "name": "Watermark/input/channels/NCS1/png/NCS1_060.png",
+      "bytes": 298124,
+      "compressed_bytes": 291583
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_001.mat",
+      "bytes": 4849962,
+      "compressed_bytes": 4830680
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_002.mat",
+      "bytes": 4847066,
+      "compressed_bytes": 4827749
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_003.mat",
+      "bytes": 4850193,
+      "compressed_bytes": 4831099
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_004.mat",
+      "bytes": 4848081,
+      "compressed_bytes": 4828699
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_005.mat",
+      "bytes": 4844250,
+      "compressed_bytes": 4825082
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_006.mat",
+      "bytes": 4844488,
+      "compressed_bytes": 4825411
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_007.mat",
+      "bytes": 4839249,
+      "compressed_bytes": 4820155
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_008.mat",
+      "bytes": 4837773,
+      "compressed_bytes": 4818839
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_009.mat",
+      "bytes": 4835312,
+      "compressed_bytes": 4816637
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_010.mat",
+      "bytes": 4842950,
+      "compressed_bytes": 4823965
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_011.mat",
+      "bytes": 4835265,
+      "compressed_bytes": 4816406
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_012.mat",
+      "bytes": 4836855,
+      "compressed_bytes": 4817935
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_013.mat",
+      "bytes": 4837609,
+      "compressed_bytes": 4818629
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_014.mat",
+      "bytes": 4846372,
+      "compressed_bytes": 4827343
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_015.mat",
+      "bytes": 4850985,
+      "compressed_bytes": 4831782
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_016.mat",
+      "bytes": 4850919,
+      "compressed_bytes": 4831802
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_017.mat",
+      "bytes": 4846478,
+      "compressed_bytes": 4827521
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_018.mat",
+      "bytes": 4850986,
+      "compressed_bytes": 4831952
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_019.mat",
+      "bytes": 4852976,
+      "compressed_bytes": 4833882
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_020.mat",
+      "bytes": 4850083,
+      "compressed_bytes": 4830872
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_021.mat",
+      "bytes": 4847168,
+      "compressed_bytes": 4827863
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_022.mat",
+      "bytes": 4847639,
+      "compressed_bytes": 4828651
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_023.mat",
+      "bytes": 4842779,
+      "compressed_bytes": 4823796
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_024.mat",
+      "bytes": 4839345,
+      "compressed_bytes": 4820323
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_025.mat",
+      "bytes": 4836334,
+      "compressed_bytes": 4817297
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_026.mat",
+      "bytes": 4844517,
+      "compressed_bytes": 4825500
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_027.mat",
+      "bytes": 4842322,
+      "compressed_bytes": 4823440
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_028.mat",
+      "bytes": 4837346,
+      "compressed_bytes": 4818518
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_029.mat",
+      "bytes": 4834047,
+      "compressed_bytes": 4815249
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_030.mat",
+      "bytes": 4846764,
+      "compressed_bytes": 4827469
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_031.mat",
+      "bytes": 4849721,
+      "compressed_bytes": 4830535
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_032.mat",
+      "bytes": 4836596,
+      "compressed_bytes": 4817376
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_033.mat",
+      "bytes": 4841150,
+      "compressed_bytes": 4821799
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_034.mat",
+      "bytes": 4840376,
+      "compressed_bytes": 4821308
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_035.mat",
+      "bytes": 4844890,
+      "compressed_bytes": 4825477
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_036.mat",
+      "bytes": 4848564,
+      "compressed_bytes": 4829197
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_037.mat",
+      "bytes": 4848004,
+      "compressed_bytes": 4828833
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_038.mat",
+      "bytes": 4849412,
+      "compressed_bytes": 4830143
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_039.mat",
+      "bytes": 4846593,
+      "compressed_bytes": 4827587
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_040.mat",
+      "bytes": 4852038,
+      "compressed_bytes": 4832819
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_041.mat",
+      "bytes": 4846613,
+      "compressed_bytes": 4827445
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_042.mat",
+      "bytes": 4853469,
+      "compressed_bytes": 4834398
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_043.mat",
+      "bytes": 4852127,
+      "compressed_bytes": 4832904
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_044.mat",
+      "bytes": 4849860,
+      "compressed_bytes": 4830746
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_045.mat",
+      "bytes": 4852136,
+      "compressed_bytes": 4832983
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_046.mat",
+      "bytes": 4848696,
+      "compressed_bytes": 4829491
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_047.mat",
+      "bytes": 4848213,
+      "compressed_bytes": 4829361
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_048.mat",
+      "bytes": 4849761,
+      "compressed_bytes": 4830695
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_049.mat",
+      "bytes": 4850788,
+      "compressed_bytes": 4831550
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_050.mat",
+      "bytes": 4843150,
+      "compressed_bytes": 4824263
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_051.mat",
+      "bytes": 4846436,
+      "compressed_bytes": 4827245
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_052.mat",
+      "bytes": 4849782,
+      "compressed_bytes": 4830618
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_053.mat",
+      "bytes": 4849914,
+      "compressed_bytes": 4830789
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_054.mat",
+      "bytes": 4852741,
+      "compressed_bytes": 4833776
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_055.mat",
+      "bytes": 4848182,
+      "compressed_bytes": 4829172
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_056.mat",
+      "bytes": 4848377,
+      "compressed_bytes": 4829332
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_057.mat",
+      "bytes": 4847404,
+      "compressed_bytes": 4828412
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_058.mat",
+      "bytes": 4844499,
+      "compressed_bytes": 4825544
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_059.mat",
+      "bytes": 4843650,
+      "compressed_bytes": 4824789
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/mat/NOF1_060.mat",
+      "bytes": 4841852,
+      "compressed_bytes": 4823036
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_001.png",
+      "bytes": 198002,
+      "compressed_bytes": 192315
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_002.png",
+      "bytes": 186724,
+      "compressed_bytes": 181154
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_003.png",
+      "bytes": 210568,
+      "compressed_bytes": 205007
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_004.png",
+      "bytes": 208665,
+      "compressed_bytes": 202576
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_005.png",
+      "bytes": 196498,
+      "compressed_bytes": 190960
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_006.png",
+      "bytes": 216236,
+      "compressed_bytes": 210683
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_007.png",
+      "bytes": 186612,
+      "compressed_bytes": 180985
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_008.png",
+      "bytes": 169195,
+      "compressed_bytes": 163229
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_009.png",
+      "bytes": 169780,
+      "compressed_bytes": 163734
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_010.png",
+      "bytes": 198029,
+      "compressed_bytes": 192279
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_011.png",
+      "bytes": 169711,
+      "compressed_bytes": 163951
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_012.png",
+      "bytes": 166412,
+      "compressed_bytes": 160536
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_013.png",
+      "bytes": 179641,
+      "compressed_bytes": 173620
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_014.png",
+      "bytes": 196904,
+      "compressed_bytes": 191303
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_015.png",
+      "bytes": 200898,
+      "compressed_bytes": 195180
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_016.png",
+      "bytes": 182697,
+      "compressed_bytes": 176814
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_017.png",
+      "bytes": 195774,
+      "compressed_bytes": 189822
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_018.png",
+      "bytes": 210446,
+      "compressed_bytes": 204527
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_019.png",
+      "bytes": 198759,
+      "compressed_bytes": 192708
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_020.png",
+      "bytes": 200637,
+      "compressed_bytes": 194920
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_021.png",
+      "bytes": 195996,
+      "compressed_bytes": 190470
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_022.png",
+      "bytes": 210706,
+      "compressed_bytes": 204793
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_023.png",
+      "bytes": 201667,
+      "compressed_bytes": 195929
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_024.png",
+      "bytes": 186077,
+      "compressed_bytes": 180273
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_025.png",
+      "bytes": 182651,
+      "compressed_bytes": 176391
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_026.png",
+      "bytes": 208757,
+      "compressed_bytes": 202929
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_027.png",
+      "bytes": 193254,
+      "compressed_bytes": 186874
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_028.png",
+      "bytes": 177626,
+      "compressed_bytes": 171617
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_029.png",
+      "bytes": 177846,
+      "compressed_bytes": 171813
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_030.png",
+      "bytes": 175737,
+      "compressed_bytes": 169646
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_031.png",
+      "bytes": 198217,
+      "compressed_bytes": 192506
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_032.png",
+      "bytes": 189332,
+      "compressed_bytes": 183650
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_033.png",
+      "bytes": 199861,
+      "compressed_bytes": 193878
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_034.png",
+      "bytes": 189739,
+      "compressed_bytes": 183763
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_035.png",
+      "bytes": 213589,
+      "compressed_bytes": 207574
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_036.png",
+      "bytes": 205140,
+      "compressed_bytes": 199387
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_037.png",
+      "bytes": 200344,
+      "compressed_bytes": 194761
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_038.png",
+      "bytes": 215464,
+      "compressed_bytes": 209612
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_039.png",
+      "bytes": 206719,
+      "compressed_bytes": 200921
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_040.png",
+      "bytes": 196848,
+      "compressed_bytes": 191131
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_041.png",
+      "bytes": 206260,
+      "compressed_bytes": 200561
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_042.png",
+      "bytes": 204644,
+      "compressed_bytes": 198921
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_043.png",
+      "bytes": 225232,
+      "compressed_bytes": 219657
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_044.png",
+      "bytes": 187679,
+      "compressed_bytes": 181841
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_045.png",
+      "bytes": 193974,
+      "compressed_bytes": 188198
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_046.png",
+      "bytes": 194087,
+      "compressed_bytes": 188454
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_047.png",
+      "bytes": 190433,
+      "compressed_bytes": 184813
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_048.png",
+      "bytes": 227399,
+      "compressed_bytes": 222093
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_049.png",
+      "bytes": 247245,
+      "compressed_bytes": 241659
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_050.png",
+      "bytes": 209719,
+      "compressed_bytes": 204403
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_051.png",
+      "bytes": 209824,
+      "compressed_bytes": 204255
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_052.png",
+      "bytes": 223660,
+      "compressed_bytes": 218000
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_053.png",
+      "bytes": 205078,
+      "compressed_bytes": 199426
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_054.png",
+      "bytes": 240211,
+      "compressed_bytes": 234761
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_055.png",
+      "bytes": 225398,
+      "compressed_bytes": 219739
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_056.png",
+      "bytes": 207020,
+      "compressed_bytes": 201384
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_057.png",
+      "bytes": 220979,
+      "compressed_bytes": 215375
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_058.png",
+      "bytes": 229838,
+      "compressed_bytes": 224283
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_059.png",
+      "bytes": 237958,
+      "compressed_bytes": 232300
+    },
+    {
+      "name": "Watermark/input/channels/NOF1/png/NOF1_060.png",
+      "bytes": 236157,
+      "compressed_bytes": 230243
+    },
+    {
+      "name": "Watermark/matlab/pfetch.m",
+      "bytes": 3182,
+      "compressed_bytes": 1355
+    },
+    {
+      "name": "Watermark/matlab/replayfilter.m",
+      "bytes": 1361,
+      "compressed_bytes": 652
+    },
+    {
+      "name": "Watermark/matlab/sfetch.m",
+      "bytes": 4203,
+      "compressed_bytes": 1813
+    },
+    {
+      "name": "Watermark/matlab/watermark.m",
+      "bytes": 5406,
+      "compressed_bytes": 2073
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "process_failure": "MATLAB R2020b exit 0xc0000374 Heap corruption after NCS1 record001 complete",
+  "completed_rows_before_restart": 960,
+  "checkpoint_sha256_before_restart": "ae4c56b83753edaa7c9f9695df9ac6909bb035b2091036674f48a11e77c1934a",
+  "recovery": "Preserve complete conditions; rerun only NCS1 records002-003 with identical seeds, configuration, receiver, and equations. Only checkpoint resume support was added to driver."
+}

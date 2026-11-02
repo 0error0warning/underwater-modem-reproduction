@@ -1,0 +1,51 @@
+{
+  "status": "FROZEN_BEFORE_TEST",
+  "files": [
+    {
+      "path": "matlab/+uac2/default_config.m",
+      "sha256": "55a081618512a28858cd43fe73da55466d118e88d533f6a925413d4451a4581a"
+    },
+    {
+      "path": "matlab/+uac2/demodulate_scaled.m",
+      "sha256": "3770cdc135ec3e4d93a084200826ddf00ab948eb3ca1f2b8827775d1c8372532"
+    },
+    {
+      "path": "matlab/+uac2/hfm_analytic.m",
+      "sha256": "c3f870ba626ac78faedb8580a64f14b3802a0c70ca0712c1b3f8abcc8ebf9755"
+    },
+    {
+      "path": "matlab/+uac2/make_packet.m",
+      "sha256": "ede03e0666e388d04155750674305e3e8ef49e125c643fd7155914363e0e7bc5"
+    },
+    {
+      "path": "matlab/+uac2/packet_layout.m",
+      "sha256": "b222bed564cf062a81b5b65e16aaf506ecb6ad5c5560ed80740c2de1ab0a70be"
+    },
+    {
+      "path": "matlab/+uac2/receive_packet.m",
+      "sha256": "a4ca5b55fc48ef879c846d0f94b89e6cf54cbd0c4b23ba60b57a74fd6d613d5f"
+    },
+    {
+      "path": "matlab/+uac2/replay_at.m",
+      "sha256": "1b064b7e077ccfb009b9c2dc994436aee4052b2508abff412a95449829d1afd0"
+    },
+    {
+      "path": "matlab/+uac2/restore_bulk.m",
+      "sha256": "8f828c1b7d440c8a4333fcb801d5e95069ac9aa5baa4e9fa0fd50896dcb8ab40"
+    },
+    {
+      "path": "matlab/+uac2/sinc_sample.m",
+      "sha256": "181dec460f5fdcc4e9a2560049da18f5ef3a0bda144917295940b041e3091c7e"
+    },
+    {
+      "path": "matlab/run_link_v2.m",
+      "sha256": "962484d98c327c4631322e08e701642fd18f5c96f5a12694028b5e4b81f9e4b8"
+    },
+    {
+      "path": "matlab/run_continuous_v2.m",
+      "sha256": "2e0f396d23b52c80f5bf78bb9d6161d6c935e44b3ae1c778ba2289f42caac250"
+    }
+  ],
+  "development_sha256": "030dd5d727f06165ee25e0d1cf366fb52fc34f59689b3f50cfa142f4903466c2",
+  "development_integrity": "1500 unique combinations; counts, erasures and record split checked"
+}

@@ -1,0 +1,13 @@
+policy,extra_control_s,applied_extra_s,counterfactual_efficiency_bps
+best_fixed,0.0,0.0,16.0
+best_fixed,0.16,0.0,16.0
+best_fixed,0.5,0.0,16.0
+best_fixed,1.0,0.0,16.0
+adaptive_stump,0.0,0.0,13.447116627876904
+adaptive_stump,0.16,0.16,12.630556230264753
+adaptive_stump,0.5,0.5,11.187005862421339
+adaptive_stump,1.0,1.0,9.57730914448844
+validation_selected,0.0,0.0,16.0
+validation_selected,0.16,0.0,16.0
+validation_selected,0.5,0.0,16.0
+validation_selected,1.0,0.0,16.0

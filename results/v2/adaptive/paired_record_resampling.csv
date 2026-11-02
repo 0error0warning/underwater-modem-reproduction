@@ -1,0 +1,3 @@
+policy,baseline,repeats,delta_efficiency_bps,record_resample_efficiency_p025,record_resample_efficiency_p975,delta_slot_rate_bps,record_resample_slot_p025,record_resample_slot_p975
+adaptive_stump,best_fixed,2000,-2.5528833721230964,-6.211804587575415,0.795427032418251,0.6000000000000005,0.0,1.4000000000000004
+validation_selected,best_fixed,2000,0.0,0.0,0.0,0.0,0.0,0.0
