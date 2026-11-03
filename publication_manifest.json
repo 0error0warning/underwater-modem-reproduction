@@ -9,12 +9,13 @@
       "sha256": "98cb19aa624dba4c1599fed0ed45e2bc3d97921df86b016767e2a412e0186ae2"
     },
     "README.md": {
-      "sha256": "f38e21a13779996b72360443df88e87dca2913ca77e709aa845f2405d6c19826",
+      "sha256": "bbd28edce9fbe1eaf6ae34dab4cca313761be5f71a0050326f747d6bcd09f161",
       "transformations": [
         "V4 P0 extension: documentation, verification entry point, or added official source checksums; historical experiment CSV and frozen algorithms unchanged",
         "2026-11-02: question-led documentation; existing measurements and frozen implementation unchanged",
         "2026-11-03: first-person README, MIT license; documentation only, existing measurements and frozen implementation unchanged",
-        "2026-11-03: added paper-reading notes and AI collaboration section; documentation only"
+        "2026-11-03: added paper-reading notes and AI collaboration section; documentation only",
+        "2026-11-03: removed personal and application framing; documentation only"
       ]
     },
     "THIRD_PARTY.md": {
@@ -30,7 +31,7 @@
       ]
     },
     "docs/PUBLICATION.md": {
-      "sha256": "4c3301daa57fa8ad9da12d6aadbafb28d72de53c17caaf92fe2be751c1aab25b",
+      "sha256": "987595abb03dce830d7cf5de48b2b84e8a74defe3b79d59f476502b133978573",
       "transformations": [
         "V4 P0 extension: documentation, verification entry point, or added official source checksums; historical experiment CSV and frozen algorithms unchanged",
         "2026-11-02: question-led documentation; existing measurements and frozen implementation unchanged",
@@ -1139,7 +1140,7 @@
       ]
     },
     "LICENSE": {
-      "sha256": "a6001a0e1d4fffd31f7ba3a4524e3331d00f2b83c61db34b4c4b9e4a8525ca6c"
+      "sha256": "3b283537ae2ddc57cfb4863a19e1c4afcb775f05f824c26cf84a002c854567be"
     }
   }
 }
