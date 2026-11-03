@@ -9,9 +9,10 @@
       "sha256": "98cb19aa624dba4c1599fed0ed45e2bc3d97921df86b016767e2a412e0186ae2"
     },
     "README.md": {
-      "sha256": "8dcee103f726e46ac1fcd8fdb4f7b668afc0630598d8060480f5e403b1208797",
+      "sha256": "db156f57c766e761759411e3d6a082bc72a2594ff052316c0f14fe2a6e4d27d5",
       "transformations": [
-        "V4 P0 extension: documentation, verification entry point, or added official source checksums; historical experiment CSV and frozen algorithms unchanged"
+        "V4 P0 extension: documentation, verification entry point, or added official source checksums; historical experiment CSV and frozen algorithms unchanged",
+        "2026-11-02: question-led documentation; existing measurements and frozen implementation unchanged"
       ]
     },
     "THIRD_PARTY.md": {
@@ -24,9 +25,10 @@
       ]
     },
     "docs/PUBLICATION.md": {
-      "sha256": "7dd62dcb315c0e4d545f1714e0eb73bb2bc6cfb9920c8dfe56b706f6122542fc",
+      "sha256": "55d2562f1a7970c3be07c05efab3ac88ce4efd844071d79933be2fe0e43cc2bc",
       "transformations": [
-        "V4 P0 extension: documentation, verification entry point, or added official source checksums; historical experiment CSV and frozen algorithms unchanged"
+        "V4 P0 extension: documentation, verification entry point, or added official source checksums; historical experiment CSV and frozen algorithms unchanged",
+        "2026-11-02: question-led documentation; existing measurements and frozen implementation unchanged"
       ]
     },
     "docs/adaptive_protocol_v2.md": {
@@ -1114,6 +1116,20 @@
       "sha256": "d2ce16c5516cb2b36d616b683f9fc3bac8e391b75a1d0f2fc6c1ec29d8280aa8",
       "transformations": [
         "V4 P0 extension: documentation, verification entry point, or added official source checksums; historical experiment CSV and frozen algorithms unchanged"
+      ]
+    },
+    "docs/experiment_index.md": {
+      "origin": "2026-11-02 research narrative and evidence navigation; no new experiment",
+      "sha256": "c2985c53e624648ae7f5b2b530782ea4e9cf0fe5b82e2b8c97876036c6706f8e",
+      "transformations": [
+        "2026-11-02: question-led documentation; existing measurements and frozen implementation unchanged"
+      ]
+    },
+    "docs/research_notes.md": {
+      "origin": "2026-11-02 research narrative and evidence navigation; no new experiment",
+      "sha256": "89f7ed6d03d5ffe9c0b670c7fe9ebf9e767265b1bdb2772ed4b71f24ee7df37e",
+      "transformations": [
+        "2026-11-02: question-led documentation; existing measurements and frozen implementation unchanged"
       ]
     }
   }

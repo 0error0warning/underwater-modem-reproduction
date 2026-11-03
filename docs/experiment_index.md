@@ -1,0 +1,96 @@
+# 实验结果与复跑索引
+
+[返回项目首页](../README.md)。这里保留详细计数、配置边界与运行方法；项目的问题、取舍与下一步见首页和[复现笔记](research_notes.md)。以下命令均从仓库根目录执行。
+
+## 主要结果
+
+| 实验 | 结果 | 能支持的结论 |
+|---|---|---|
+| **V4 新记录验证**：NOF1 011–020，4 ms、无保护 | **211/3200 → 174/3200**（6.59% → 5.44%），错误包 **23/50 → 16/50** | 预注册与源码冻结先于下载；主条件改善较小。10 条记录中 6 改善、3 持平、1 恶化；不是跨海域泛化 |
+| **V4 软件数据包闭环**：合成延时、多普勒、AWGN | **35/35 检查、5/5 丢包场景通过** | UTF-8 文本经 BFSK 波形接收、长度解析、CRC16 校验后交付；ACK 也经过调制解调，超时重传不重复交付 |
+| NOF1，4 ms、无保护，开发记录 001–003 | 同一收到波形上的错误数 **373/960 → 24/960**（38.85% → 2.50%） | 将最早显著前导峰定时改为联合检测主峰，能解释本实现的大部分异常；尺度、噪声和检测器保持不变 |
+| 固定候选规则，记录 004–005 确认 | **163/640 → 59/640** | 改善在另一组开发记录上出现，但记录 004 仍有 59/320 个错误；这些记录已用于开发，不是新的独立最终测试 |
+| 修正初相后的连续排程，记录 031–040 | 固定 **11.6 bit/s**，自适应 **9.8 bit/s** | 未证明自适应优势；每条记录以完整 32 s 为分母，共 595 帧，NCS1 两策略均无完整无错包 |
+
+连续实验修复了循环变量 `pi` 遮蔽数学常量造成的初相差异，保留原冻结接收器和策略。修正值替代旧的 11.4/10.0 bit/s；这次是已查看记录的错误修正重分析。上述主峰定时候选尚未并入连续实验接收器。
+
+V4 覆盖 NOF1、NCS1 各 011–020，共 **400 个波形、800 条配对方法观测**，所有预定条件与失败口径均保留。NOF1 4/4 ms 的 BER 从 **73/3200（2.28%）略增到 75/3200（2.34%）**；NCS1 4/0 ms 虽从 33.09% 降到 31.69%，两种规则仍均为 50/50 错误包。新结果支持有限的主条件改善，没有重现开发集上的巨大降幅，也不支持把主峰规则作为所有条件的统一改进。**021–030 继续保留、不下载、不查看**；自适应策略本轮未重新调参。
+
+![冻结主峰规则在新记录上的逐记录结果](../results/v4/timing_holdout/primary_by_record.png)
+
+![同一收到波形的定时与尺度消融](../results/v3/nof1_diagnostic/plots/01_same_waveform_ablation.png)
+
+![连续排程初相修正前后，固定与自适应策略对照](../results/v3/continuous_phase_corrected/phase_correction_comparison.png)
+
+![AWGN 下非相干 BFSK 理论与仿真验证](../results/awgn/awgn_validation.png)
+
+## 结果与代码入口
+
+- **[V4 新记录定时报告](../results/v4/timing_holdout/report.md)** · [预注册与固定条件](timing_holdout_protocol_v4.md) · [下载前的冻结提交](https://github.com/0error0warning/underwater-modem-reproduction/commit/21ffd69)
+- **[V4 CRC16 双节点协议与运行方法](packet_link_v4.md)** · [35 项检查](../results/v4/packet_link/validation_cases.csv) · [5 种丢包场景](../results/v4/packet_link/demo_scenarios.csv)
+- [NOF1 配对诊断与确认实验](../results/v3/nof1_diagnostic/report.md) · [连续排程修正报告](../results/v3/continuous_phase_corrected/correction_report.md) · [原论文对齐与 FFT 诊断](../results/v2/paper_alignment/report.md)
+- [运行与阅读指南](v2_run_guide.md) · [论文参数核验](paper_audit.md) · [预定自适应协议](adaptive_protocol_v2.md)
+
+| 目录 / 文件 | 内容 |
+|---|---|
+| [`matlab/+uac`](../matlab/+uac) | BFSK 基础收发、快速时变信道回放 |
+| [`matlab/+uac2`](../matlab/+uac2) | 原冻结物理帧布局、HFM 捕获、导频尺度估计与载荷解调 |
+| [`matlab/+uac4`](../matlab/+uac4) | 不修改 V2 的主峰定时候选、相同分数采样检测器 |
+| [`matlab/+uaclink`](../matlab/+uaclink) | 字节帧、CRC16、盲接收、ACK、重传与两节点状态机 |
+| [`matlab/run_timing_holdout_v4.m`](../matlab/run_timing_holdout_v4.m) | 冻结检查与新记录配对评测 |
+| [`matlab/run_packet_link_v4.m`](../matlab/run_packet_link_v4.m) | 中文消息经波形收发，含 DATA/ACK 丢失演示 |
+| [`matlab/run_nof1_diagnostic_v3.m`](../matlab/run_nof1_diagnostic_v3.m) | 同波形消融、定时扫描、004–005 固定规则确认 |
+| [`matlab/run_continuous_phasecheck_v3.m`](../matlab/run_continuous_phasecheck_v3.m) | 使用冻结策略的初相修正连续复跑 |
+| [`tools`](../tools) / [`results`](../results) | 分析与报告脚本 / 逐包 CSV、元数据、冻结清单和图表 |
+
+## 快速复跑
+
+只核验已发布结果时，无需 MATLAB 或原始信道数据：
+
+```sh
+python tools/verify_public_release.py
+```
+
+该检查同时核对旧实验、V4 配对计数及源码冻结，并用 Python 独立校验协议样例的 CRC、UTF-8 长度与重传事件。
+
+验证环境为 **MATLAB R2020b + Signal Processing Toolbox、Python 3.13.5**；Python 分析使用 NumPy、Pandas、Matplotlib。从仓库根目录安装已验证的版本：
+
+```sh
+python -m pip install -r requirements.txt
+```
+
+先在 MATLAB 中运行不需要 Watermark 数据的收发机检查：
+
+```matlab
+addpath('matlab');
+run_awgn_validation;
+validate_receiver_v2;
+validate_packet_link_v4;
+run_packet_link_v4;
+```
+
+软件节点演示会输出 B 收到的 `你好，水声 Modem!`。全部 ACK 丢失时，A 为“交付未确认”，B 仍只交付一次。接收端只获得收到波形和公开配置；载荷长度来自解调后的帧头。
+
+**Watermark 原始数据不随仓库发布。** 请按 [数据获取指南](DATA.md) 从 Watermark 官方单独下载并准备 `vendor/Watermark` 目录。NOF1 诊断使用 001–005，连续复跑另需 NOF1/NCS1 031–040。数据就绪后：
+
+```matlab
+run_nof1_diagnostic_v3('full');
+run_nof1_diagnostic_v3('confirmation');
+```
+
+```sh
+python -X utf8 tools/report_nof1_diagnostic_v3.py
+python tools/portable_reports.py
+```
+
+完整开发、冻结、测试及连续复跑顺序见 [运行指南](v2_run_guide.md)。V4 命令与数据划分见 [定时预注册](timing_holdout_protocol_v4.md)；正式脚本拒绝覆盖已存在的最终元数据，复跑需先另行归档并记录原因。保留既有冻结文件与结果副本；重新拟合后，已经查看的记录不能再称为未见测试数据。
+
+## 范围与归属
+
+这是 **BFSK 部分复现及接收机扩展**，未精确复现原论文全部表格；原文未充分披露的检测、定时和噪声约定均需单独说明。样本功率 SNR 与 Eb/N0 不可直接等同。历史连续实验仍采用理想反馈预算，无错载荷由离线真值统计，不能追溯性解释成 CRC/ARQ 结果。
+
+V4 CRC/ARQ 已形成软件闭环，但只在合成信道验证，尚未接入 Watermark 连续发包实验。其接口一次处理一个接收窗口，双方为固定节点对、序号状态暂存内存；没有持续音频流扫描或节点重启后的会话恢复。MCU 移植、换能器与真实回传前端、水池试验和实测功耗仍未完成。
+
+代码实现、实验分析与审查使用了 **AI 协助**；本仓库不将这些成果表述为作者已独立完成全部工作。可核验依据是公开源码、随机种子、逐包计数和完成状态，跨海域泛化与硬件性能仍待验证。
+
+论文作者为 Jan H. Schmidt、Iwona Kochańska、Aleksander M. Schmidt：[原文](https://doi.org/10.21008/j.0860-6897.2024.2.07)。Watermark来自[FFI官方项目](https://www.ffi.no/en/research/watermark)。表格转录、回放内核来源及许可边界见 [THIRD_PARTY.md](../THIRD_PARTY.md)；路径清理和历史/公开哈希的区别见 [公开快照说明](PUBLICATION.md)。
