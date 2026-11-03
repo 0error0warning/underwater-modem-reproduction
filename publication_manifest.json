@@ -9,13 +9,14 @@
       "sha256": "98cb19aa624dba4c1599fed0ed45e2bc3d97921df86b016767e2a412e0186ae2"
     },
     "README.md": {
-      "sha256": "bbd28edce9fbe1eaf6ae34dab4cca313761be5f71a0050326f747d6bcd09f161",
+      "sha256": "a64c519727eba9fadc0f7d310d71d28a7e1eacce1bd6fd651ea91cb092bc8473",
       "transformations": [
         "V4 P0 extension: documentation, verification entry point, or added official source checksums; historical experiment CSV and frozen algorithms unchanged",
         "2026-11-02: question-led documentation; existing measurements and frozen implementation unchanged",
         "2026-11-03: first-person README, MIT license; documentation only, existing measurements and frozen implementation unchanged",
         "2026-11-03: added paper-reading notes and AI collaboration section; documentation only",
-        "2026-11-03: removed personal and application framing; documentation only"
+        "2026-11-03: removed personal and application framing; documentation only",
+        "2026-11-03: removed scope statement paragraph; documentation only"
       ]
     },
     "THIRD_PARTY.md": {

@@ -2,8 +2,6 @@
 
 这个仓库复现一篇低功耗水声 Modem 论文的 BFSK 部分：搭起收发链路，接入实测水声信道，比较保护时间带来的可靠性和速度变化，并记录复现中遇到的问题。
 
-先把边界说清楚：**这里只有 MATLAB 仿真和公开的实测水声信道回放，没有水下实验，也没有在单片机上跑过。**
-
 论文是 Schmidt 等的 [*Performance of low-power underwater modem for shallow water communications*](https://doi.org/10.21008/j.0860-6897.2024.2.07)（2024）。信道数据来自挪威国防研究所的 [Watermark](https://www.ffi.no/en/research/watermark)，这是一套在海上实测并公开的水声信道，专门用来回放测试调制方案。
 
 ## 读论文时我觉得不对劲的地方
