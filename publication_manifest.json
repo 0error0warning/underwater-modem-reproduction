@@ -9,14 +9,18 @@
       "sha256": "98cb19aa624dba4c1599fed0ed45e2bc3d97921df86b016767e2a412e0186ae2"
     },
     "README.md": {
-      "sha256": "db156f57c766e761759411e3d6a082bc72a2594ff052316c0f14fe2a6e4d27d5",
+      "sha256": "9dbb1526b50ec45ecfd6dcefda04f43b8c9eeb2fc0ff4524eae55b2fed01c306",
       "transformations": [
         "V4 P0 extension: documentation, verification entry point, or added official source checksums; historical experiment CSV and frozen algorithms unchanged",
-        "2026-11-02: question-led documentation; existing measurements and frozen implementation unchanged"
+        "2026-11-02: question-led documentation; existing measurements and frozen implementation unchanged",
+        "2026-11-03: first-person README, MIT license; documentation only, existing measurements and frozen implementation unchanged"
       ]
     },
     "THIRD_PARTY.md": {
-      "sha256": "80495a45f31f584ac1a11c957691fede71f093095c66b1f974b5635d12ba7419"
+      "sha256": "90861206a57dd14163d8567793848814ed89bee944dd556338d0665f30e66850",
+      "transformations": [
+        "2026-11-03: license statement for project code (MIT); documentation only"
+      ]
     },
     "docs/DATA.md": {
       "sha256": "c3a9e4b5ee38dcc102de4c0ed6d7884477c1335b253f853c32cc8486ac630d50",
@@ -25,10 +29,11 @@
       ]
     },
     "docs/PUBLICATION.md": {
-      "sha256": "55d2562f1a7970c3be07c05efab3ac88ce4efd844071d79933be2fe0e43cc2bc",
+      "sha256": "4c3301daa57fa8ad9da12d6aadbafb28d72de53c17caaf92fe2be751c1aab25b",
       "transformations": [
         "V4 P0 extension: documentation, verification entry point, or added official source checksums; historical experiment CSV and frozen algorithms unchanged",
-        "2026-11-02: question-led documentation; existing measurements and frozen implementation unchanged"
+        "2026-11-02: question-led documentation; existing measurements and frozen implementation unchanged",
+        "2026-11-03: first-person README, MIT license; documentation only, existing measurements and frozen implementation unchanged"
       ]
     },
     "docs/adaptive_protocol_v2.md": {
@@ -1131,6 +1136,9 @@
       "transformations": [
         "2026-11-02: question-led documentation; existing measurements and frozen implementation unchanged"
       ]
+    },
+    "LICENSE": {
+      "sha256": "a6001a0e1d4fffd31f7ba3a4524e3331d00f2b83c61db34b4c4b9e4a8525ca6c"
     }
   }
 }

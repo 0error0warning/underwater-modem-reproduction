@@ -19,5 +19,5 @@ Recommended Watermark citations:
 
 ## This repository
 
-The repository is public for inspection and scientific reporting. No open-source license has yet been selected for the project's own code. This does not change the license of the source paper or other third-party material. Do not infer a blanket MIT/BSD license from public repository visibility.
+The code and documentation written for this project are released under the MIT License (see `LICENSE`). The MIT License covers only this project's own code and text. It does not apply to the source paper, its transcribed reference table (CC BY 4.0), Watermark materials, or any other third-party material, which keep their own terms.
 
